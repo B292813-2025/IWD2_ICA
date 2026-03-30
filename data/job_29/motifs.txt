@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 25 Mar 2026 23:12:32
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_29/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_29/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_29/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: NP_001371097.1     from: 1   to: 231
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

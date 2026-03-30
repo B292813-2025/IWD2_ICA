@@ -1,0 +1,105 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu 26 Mar 2026 00:00:04
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_30/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_30/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_30/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: XP_081128051.1     from: 1   to: 1622
+# HitCount: 8
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 1292 of sequence
+End = position 1295 of sequence
+
+Motif = AMIDATION
+
+LCKEYAGKKKHCFS
+     |  |
+  1292  1295
+
+Length = 4
+Start = position 1226 of sequence
+End = position 1229 of sequence
+
+Motif = AMIDATION
+
+CLEWKFGKKPMGKD
+     |  |
+  1226  1229
+
+Length = 4
+Start = position 9 of sequence
+End = position 12 of sequence
+
+Motif = AMIDATION
+
+RKLSNTGKRKISVC
+     |  |
+     9  12
+
+Length = 3
+Start = position 1392 of sequence
+End = position 1394 of sequence
+
+Motif = RGD
+
+VKGLSRGDAELAI
+     | |
+  1392 1394
+
+Length = 8
+Start = position 1325 of sequence
+End = position 1332 of sequence
+
+Motif = ATP_GTP_A
+
+VLGLLGHNRAGKSTSIKV
+     |      |
+  1325      1332
+
+Length = 8
+Start = position 522 of sequence
+End = position 529 of sequence
+
+Motif = ATP_GTP_A
+
+ITAILGHSGAGKSTLLNI
+     |      |
+   522      529
+
+Length = 22
+Start = position 861 of sequence
+End = position 882 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+VRLLKLKQERKALLSLLLILVVGFFPLFLEYI
+     |                    |
+   861                    882
+
+Length = 15
+Start = position 623 of sequence
+End = position 637 of sequence
+
+Motif = ABC_TRANSPORTER_1
+
+VLAQNLSGGQKRKLTFGIAILGDPQ
+     |             |
+   623             637
+
+
+#---------------------------------------
+#---------------------------------------

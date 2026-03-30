@@ -1,0 +1,35 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu 26 Mar 2026 09:58:01
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_32/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_32/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_32/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: CAO7053860.1     from: 1   to: 434
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 195 of sequence
+End = position 197 of sequence
+
+Motif = RGD
+
+DFPHRRGDVGLGD
+     | |
+   195 197
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,35 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu 19 Mar 2026 12:54:58
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_5/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_5/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_5/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: G6PC1_HUMAN     from: 1   to: 357
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 22
+Start = position 32 of sequence
+End = position 53 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+QDWFILVSVIADLRNAFYVLFPIWFHLQEAVG
+     |                    |
+    32                    53
+
+
+#---------------------------------------
+#---------------------------------------

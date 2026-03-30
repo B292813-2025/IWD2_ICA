@@ -1,0 +1,45 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 30 Mar 2026 01:18:33
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_42/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_42/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_42/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: XP_081119537.1     from: 1   to: 79
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 19
+Start = position 8 of sequence
+End = position 26 of sequence
+
+Motif = CKS_1
+
+HKQIYYSDKYFDEHYEYRHVMLPRELSKQ
+     |                 |
+     8                 26
+
+Length = 11
+Start = position 60 of sequence
+End = position 70 of sequence
+
+Motif = CKS_2
+
+VHYMIHEPEPHILLFRRPLPK
+     |         |
+    60         70
+
+
+#---------------------------------------
+#---------------------------------------

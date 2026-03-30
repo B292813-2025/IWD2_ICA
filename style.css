@@ -1,0 +1,101 @@
+/* style.css - Global stylesheet for JAHbio */
+/* Credit: Claude helped me out a lot with designing the colour scheme
+/* Page body */
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #f0f4f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header banner */
+.header {
+    background-color: #1a5c2a;
+    color: white;
+    padding: 20px 40px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+}
+
+.header p {
+    margin: 5px 0 0 0;
+    font-size: 0.95em;
+    color: #aaddbb;
+}
+
+/* Navigation menu */
+.menu {
+    background-color: #2e8b47;
+    padding: 10px 40px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #ccffcc;
+}
+
+/* Main content area */
+.content {
+    background-color: white;
+    margin: 20px 40px;
+    padding: 20px 30px;
+    border: 1px solid #cccccc;
+}
+
+/* Footer */
+.footer {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.85em;
+    color: #333333;
+}
+
+.footer a {
+    color: #1a5c2a;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #2e8b47;
+    color: white;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+tr:hover {
+    background-color: #f0f7f0;
+}
+
+/* Error messages */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Success messages */
+.success {
+    color: green;
+    font-weight: bold;
+}

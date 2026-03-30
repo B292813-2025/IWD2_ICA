@@ -1,0 +1,85 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 30 Mar 2026 00:10:47
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_39/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_39/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_39/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAN4038565.1     from: 1   to: 1571
+# HitCount: 6
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 1174 of sequence
+End = position 1177 of sequence
+
+Motif = AMIDATION
+
+CLEWKCGKKSMRKD
+     |  |
+  1174  1177
+
+Length = 4
+Start = position 1130 of sequence
+End = position 1133 of sequence
+
+Motif = AMIDATION
+
+SFIFRKGRKNCGLW
+     |  |
+  1130  1133
+
+Length = 4
+Start = position 141 of sequence
+End = position 144 of sequence
+
+Motif = AMIDATION
+
+NLKFYPGKRIPEIK
+     |  |
+   141  144
+
+Length = 8
+Start = position 1273 of sequence
+End = position 1280 of sequence
+
+Motif = ATP_GTP_A
+
+VLGLLGHNGAGKSTSIKV
+     |      |
+  1273      1280
+
+Length = 8
+Start = position 517 of sequence
+End = position 524 of sequence
+
+Motif = ATP_GTP_A
+
+ITAILGHSGAGKSTLLNI
+     |      |
+   517      524
+
+Length = 15
+Start = position 618 of sequence
+End = position 632 of sequence
+
+Motif = ABC_TRANSPORTER_1
+
+VLAQNLSGGQKRKLTFGIAILGDPQ
+     |             |
+   618             632
+
+
+#---------------------------------------
+#---------------------------------------

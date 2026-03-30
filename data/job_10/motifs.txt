@@ -1,0 +1,45 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu 19 Mar 2026 14:50:35
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_10/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_10/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_10/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: CCM12456.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGMISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------

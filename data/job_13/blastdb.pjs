@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "blastdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/localdisk/home/s2837201/public_html/ICA/data/job_13/sequences.fasta",
+  "number-of-letters": 17968,
+  "number-of-sequences": 50,
+  "last-updated": "2026-03-24T16:17:00",
+  "number-of-volumes": 1,
+  "bytes-total": 75236,
+  "bytes-to-cache": 18571,
+  "files": [
+    "blastdb.pdb",
+    "blastdb.phr",
+    "blastdb.pin",
+    "blastdb.pog",
+    "blastdb.pos",
+    "blastdb.pot",
+    "blastdb.psq",
+    "blastdb.ptf",
+    "blastdb.pto"
+  ]
+}

@@ -1,0 +1,64 @@
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Fetched 27 sequences.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Inserted 27 sequences.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+/localdisk/home/s2837201/public_html/ICA/data/job_24/run_analysis.sh: line 102: //: Is a directory
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_24/conservation.1.png
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1048 (23000) at line 1: Column 'seq_id' cannot be null
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1048 (23000) at line 1: Column 'seq_id' cannot be null
+Motif parsing complete.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+
+
+Building a new DB, current time: 03/24/2026 19:30:10
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_24/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_24/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 27 sequences in 0.228956 seconds.
+
+
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Structure predicted for sp|P35576.2|G6PC1_MOUSE
+mysql: [Warning] Using a password on the command line interface can be insecure.
+JAHbio job 24 complete.

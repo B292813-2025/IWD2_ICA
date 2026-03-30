@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Droid+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:wght@400;500&display=swap');
+/* --- Variables --- */
+:root {
+    --navy:          #041e42;
+    --navy-mid:      #072a5c;
+    --navy-light:    #eef1f7;
+    --red:           #c8102e;
+    --red-hover:     #a00d25;
+    --red-wash:      #fdf0f2;
+    --white:         #ffffff;
+    --grey-bg:       #072a5c;
+    --grey-border:   #e2e6ed;
+    --grey-text:     #4a5568;
+    --grey-light:    #8898aa;
+    --shadow-sm:     0 1px 3px rgba(4,30,66,0.08);
+    --shadow-md:     0 4px 20px rgba(4,30,66,0.10);
+    --shadow-lg:     0 8px 40px rgba(4,30,66,0.13);
+}
+
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Base --- */
+body {
+    font-family: 'Droid Serif', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--navy);
+    background-color: var(--grey-bg);
+}
+
+/* --- Container --- */
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 48px;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.header {
+    background-color: var(--navy);
+    padding: 48px 0 36px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Red rule at the very bottom of the header */
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--red) 0%, #e8152f 50%, var(--red) 100%);
+}
+
+/* The wordmark */
+.header h1 {
+    font-family: 'Droid Serif', serif;
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+/* JAH in red */
+.header h1 span {
+    color: var(--red);
+}
+
+.header p {
+    font-size: 0.95em;
+    font-weight: 300;
+    font-style: italic;
+    color: #7a9ab8;
+    letter-spacing: 0.3px;
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+.menu {
+    background-color: var(--navy-mid);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.menu .container {
+    display: flex;
+    align-items: stretch;
+}
+
+.menu a {
+    color: #7a9ab8;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 15px 18px;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    transition: color 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.menu a:hover {
+    color: var(--white);
+    border-bottom-color: var(--red);
+    background-color: rgba(255,255,255,0.04);
+    text-decoration: none;
+}
+
+/* ============================================================
+   CONTENT CARD
+   ============================================================ */
+.content {
+    background-color: var(--white);
+    margin: 36px auto;
+    padding: 52px 60px;
+    border-radius: 4px;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--red);
+    position: relative;
+}
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--grey-border);
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+p {
+    color: var(--grey-text);
+    margin-bottom: 16px;
+    font-size: 1.07em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--grey-border);
+    margin: 32px 0;
+}
+
+a {
+    color: var(--red);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(200,16,46,0.25);
+    transition: border-color 0.15s, color 0.15s;
+}
+
+a:hover {
+    color: var(--red-hover);
+    border-bottom-color: var(--red-hover);
+    text-decoration: none;
+}
+
+/* ============================================================
+   FORMS
+   ============================================================ */
+form pre {
+    font-family: 'Droid Serif', serif;
+    font-size: 1em;
+    line-height: 2.5;
+    color: var(--grey-text);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    font-family: 'Droid Serif', serif;
+    font-size: 1em;
+    padding: 8px 12px;
+    border: 1px solid var(--grey-border);
+    border-radius: 3px;
+    color: var(--navy);
+    background-color: var(--white);
+    width: 280px;
+    transition: border-color 0.18s, box-shadow 0.18s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: var(--navy);
+    box-shadow: 0 0 0 3px rgba(4,30,66,0.08);
+}
+
+input[type="submit"] {
+    font-family: 'Droid Serif', serif;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: #c8102e !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.18s, box-shadow 0.18s;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--red-hover);
+    box-shadow: 0 4px 12px rgba(200,16,46,0.28);
+}
+
+/* ============================================================
+   INFO BOX
+   ============================================================ */
+.infobox {
+    max-length: 520px;
+    background-color: var(--navy-light);
+    border-left: 3px solid var(--navy);
+    border-radius: 0 3px 3px 0;
+    padding: 20px 20px;
+    font-family: 'Droid Serif', serif;
+    font-size: 1em;
+    color: var(--grey-text);
+    line-height: 2.3;
+}
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 16px;
+    font-size: 1.1em;
+}
+
+th {
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 0.98em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* Red left border on first column header for flair */
+th:first-child {
+    border-left: 3px solid var(--red);
+}
+
+td {
+    padding: 11px 16px;
+    border-bottom: 1px solid var(--grey-border);
+    color: var(--grey-text);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background-color: var(--navy-light);
+}
+
+/* ============================================================
+   STATUS MESSAGES
+   ============================================================ */
+.error {
+    background-color: var(--red-wash);
+    border-left: 3px solid var(--red);
+    padding: 13px 20px;
+    border-radius: 0 3px 3px 0;
+    color: var(--red-hover);
+    font-weight: 700;
+    font-size: 0.92em;
+    margin: 16px 0;
+}
+
+.success {
+    background-color: var(--navy-light);
+    border-left: 3px solid var(--navy);
+    padding: 13px 20px;
+    border-radius: 0 3px 3px 0;
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 0.92em;
+    margin: 16px 0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+    background-color: var(--navy);
+    color: #cccccc;
+    text-align: center;
+    padding: 28px 0;
+    font-size: 0.83em;
+    font-weight: 300;
+    line-height: 2;
+    border-top: 3px solid var(--red);
+}
+
+.footer p a {
+    color: #7a9ab8;
+    border-bottom: none;
+}
+
+.footer p {
+    color: var(--white);
+}
+
+.footer a:hover {
+    color: var(--white);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .header-inner img {
+        height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu .container {
+        flex-wrap: wrap;
+    }
+
+    .menu a {
+        font-size: 0.75em;
+        padding: 10px 10px;
+    }
+}
+
+h3 {
+    margin-top: 28px;
+}
+
+pre {
+    margin-top: 12px;
+}
+
+/* ============================================================
+   RESPONSIVE — MOBILE
+   ============================================================ */
+@media (max-width: 600px) {
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .header-inner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-inner img {
+        display: none;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .content {
+        padding: 20px 16px;
+        margin: 16px 0;
+    }
+
+    .menu .container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .menu a {
+        font-size: 0.6em;
+        padding: 8px 6px;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .infobox {
+        font-size: 0.8em;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="password"] {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 14px;
+        margin-top: 16px;
+    }
+    p {
+        font-size: 0.8em;
+    }
+
+    .footer {
+        font-size: 0.7em;
+    }
+
+    pre, form pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    table {
+        font-size: 0.75em;
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        }
+
+    td, th {
+        padding: 8px 10px;
+        white-space: nowrap;
+        }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
+}
