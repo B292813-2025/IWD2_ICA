@@ -1,43 +1,42 @@
 <?php
-// ============================================================
-// feedback.php — JAHbio
 // Displays a feedback form and stores submissions in the DB.
-// ============================================================
 session_start();
 require_once 'login.php';
-
+// Requires login (to mySQL) to run first as this is where it is stored
 $submitted = false;
-$errors    = [];
+$errors    = []; //storing any possible errors - empty array to start
 
-// ── Handle POST ──────────────────────────────────────────────
+// Checks the user pressed submit
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $name    = trim($_POST['name']    ?? '');
     $email   = trim($_POST['email']   ?? '');
     $subject = trim($_POST['subject'] ?? '');
     $message = trim($_POST['message'] ?? '');
-
+    // gets inputs - trim to remove whitespace
+  
     if ($message === '') {
         $errors[] = 'Please enter a message.';
-    }
+    } //if nothing is entered display this message
     if ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors[] = 'Please enter a valid email address, or leave the field blank.';
-    }
+    } //stores error if email entered is not a valid one
 
+    // if there are no errors - store in database
     if (empty($errors)) {
         try {
             $dsn  = "mysql:host=127.0.0.1;dbname=$database;charset=utf8mb4";
-            $conn = new PDO($dsn, $username, $password);
-            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $conn = new PDO($dsn, $username, $password); //connecting...
+            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //debugging - throw upon error
             $stmt = $conn->prepare('
                 INSERT INTO feedback (name, email, subject, message)
                 VALUES (?, ?, ?, ?)
-            ');
-            $stmt->execute([$name ?: null, $email ?: null, $subject ?: null, $message]);
-            $submitted = true;
+            '); //placeholders
+            $stmt->execute([$name ?: null, $email ?: null, $subject ?: null, $message]); //if empty store NULL
+            $submitted = true; //mark as submitted
         } catch (PDOException $e) {
             $errors[] = 'Could not save feedback. Please try again later.';
-        }
+        } //picks up any DB issues and shows an error message if that is the case
     }
 }
 ?>
