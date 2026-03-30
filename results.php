@@ -494,7 +494,7 @@ $base_url  = 'data/job_' . $job_id;
 <div class="footer">
     <div class="container">
         <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>
-        <p><a href="credits.php">Statement of Credits</a></p>
+        <p><a href="credits.php">Statement of Credits</a> &mdash; <a href="https://github.com/B292813-2025/IWD2_ICA" target="_blank">GitHub</a></p>
     </div>
 </div>
 

@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 30 Mar 2026 19:35:30
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_48/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_48/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_48/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAN4049539.1     from: 1   to: 299
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

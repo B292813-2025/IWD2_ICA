@@ -14,12 +14,11 @@ if ($job_id <= 0) {
 try {
     $dsn  = "mysql:host=127.0.0.1;dbname=$database;charset=utf8mb4";
     $conn = new PDO($dsn, $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //reccomended to me (implemented in most scripts for PDO)
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 } catch (PDOException $e) {
     echo json_encode(['error' => 'DB connection failed']);
     exit();
 }
-//selects the analysis_type, status and output_file, filters by job_id and orders results by analysis_id
 $stmt = $conn->prepare('
     SELECT analysis_type, status, output_file
     FROM analysis
@@ -27,7 +26,6 @@ $stmt = $conn->prepare('
     ORDER BY analysis_id ASC
 ');
 $stmt->execute([$job_id]);
-// retrieves all the rows
 $steps = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 echo json_encode(['steps' => $steps]);

@@ -8,9 +8,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit();
 }
 // Inputs
-$protein  = trim($_POST['protein']   ?? ''); //trim to remove whitespace, ?? for null 
+//trim to remove whitespace, ?? for null 
+$protein  = trim($_POST['protein']   ?? '');  
 $taxon    = trim($_POST['taxon']     ?? '');
-$max_seqs = intval($_POST['max_seqs'] ?? 50); // max 50
+$max_seqs = intval($_POST['max_seqs'] ?? 50); 
 
 // 1 ticked 0 non-ticked
 $do_align = isset($_POST['do_align']) ? 1 : 0;
@@ -73,11 +74,13 @@ $stmt = $conn->prepare('
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 ');
 $stmt->execute([$session_id, $protein, $taxon, $max_seqs, $do_align, $do_motif, $do_blast, $do_pymol, $do_tree, $do_hist]);
-$job_id = $conn->lastInsertId(); // gets auto-increment job
+$job_id = $conn->lastInsertId(); 
+// gets auto-increment job
 
 // Make the job directory
+// true - create parent if needed
 $base_dir = '/localdisk/home/s2837201/public_html/ICA/data/job_' . $job_id;
-if (!mkdir($base_dir, 0777, true)) // true - create parent if needed
+if (!mkdir($base_dir, 0777, true)) 
     die('Failed to create output directory.');
 
 // Selected analyses
