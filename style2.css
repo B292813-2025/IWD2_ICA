@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Droid+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:wght@400;500&display=swap');
+/* Import droid Serif */
+/* Thank you to Claude for helping out immensely with this style sheet*/
 /* --- Variables --- */
+
 :root {
     --navy:          #041e42;
     --navy-mid:      #072a5c;
