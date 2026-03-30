@@ -11,7 +11,7 @@ session_start();
 </head>
 <body>
 <! Same as usual -->
-<!-- ===== HEADER ===== -->
+<!-- header -->
 <div class="header">
     <div class="container header-inner">
         <div>
@@ -22,7 +22,7 @@ session_start();
     </div>
 </div>
 
-<!-- ===== NAV ===== -->
+<!-- nav links -->
 <div class="menu">
     <div class="container">
         <a href="index.php">Home</a>
@@ -36,7 +36,7 @@ session_start();
     </div>
 </div>
 
-<!-- ===== CONTENT ===== -->
+<!-- content -->
 <div class="container">
 <div class="content">
 
@@ -134,7 +134,6 @@ session_start();
 </div>
 </div>
 
-<!-- ===== FOOTER ===== -->
 <div class="footer">
     <div class="container">
         <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>

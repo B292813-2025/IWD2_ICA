@@ -77,6 +77,6 @@ for (header, seq), acc in zip(records, accs):
     species_s = species.replace("'", "\\'")
 
     sql = f"INSERT INTO sequences (job_id, accession, description, species, seq_length) VALUES ({job_id}, '{acc_s}', '{desc_s}', '{species_s}', {length});"
-    subprocess.run(['mysql', '-u', username, '-p'+password, database, '-e', sql])
+    subprocess.run(['mysql', '-u', username, '-p'+password, database, '-e', sql]) #add to mySQL DB
 
 print(f'Inserted {len(records)} sequences.')

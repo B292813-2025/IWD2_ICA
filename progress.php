@@ -217,9 +217,7 @@ $colours = [
     </div>
 </div>
 
-<!-- ============================================================
-     JS — polls poll.php every 3 seconds - thank you to Claude for help here
-     ============================================================ -->
+<!-- JS — polls poll.php every 3 seconds - thank you to Claude for help here -->
 <script>
 const jobId    = <?php echo $job_id; ?>;
 const labels   = <?php echo json_encode($labels); ?>;

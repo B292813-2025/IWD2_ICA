@@ -120,7 +120,6 @@ if (!empty($jobs)) {
 <body>
 
 <!-- The usual setup -->
-<!-- ===== HEADER ===== -->
 <div class="header">
     <div class="container">
         <div class="header-inner">
@@ -132,7 +131,6 @@ if (!empty($jobs)) {
     </div>
 </div>
 
-<!-- ===== NAV ===== -->
 <div class="menu">
     <div class="container">
         <a href="index.php">Home</a>
@@ -146,7 +144,6 @@ if (!empty($jobs)) {
     </div>
 </div>
 
-<!-- ===== CONTENT ===== -->
 <div class="container">
 <div class="content">
 
@@ -219,7 +216,6 @@ if (!empty($jobs)) {
 </div>
 </div>
 
-<!-- ===== FOOTER ===== -->
 <div class="footer">
     <div class="container">
         <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>

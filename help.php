@@ -9,7 +9,6 @@
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
 <div class="header">
     <div class="container">
         <div class="header-inner">
@@ -35,7 +34,6 @@
     </div>
 </div>
 
-<!-- ===== CONTENT ===== -->
 <div class="container">
 <div class="content">
 
@@ -239,7 +237,6 @@
 </div>
 </div>
 
-<!-- ===== FOOTER ===== -->
 <div class="footer">
     <div class="container">
         <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>

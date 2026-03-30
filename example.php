@@ -1,5 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
+<! Uses job_38 as as example >
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -233,7 +234,7 @@
 
     <hr>
 
-    <!-- 3D STRUCTURE -->
+    <!-- 3D STRUCTURE PREDICTION -->
     <div class="result-section">
         <h3>3D Structure Visualisation <span class="badge badge-complete">Complete</span></h3>
         <div id="mol-viewer" style="width:100%; height:500px; border:1px solid var(--grey-border); border-radius:4px; margin-top:12px; background:#1a1a2e; position:relative;"></div>
@@ -266,7 +267,7 @@
 
     <hr>
 
-    <!-- DOWNLOADS -->
+    <!-- DOWNLOAD LINKS -->
     <div class="result-section">
         <h3>Downloads</h3>
         <p>Raw output files for this example dataset:</p>
