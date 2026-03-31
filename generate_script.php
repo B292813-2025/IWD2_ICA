@@ -115,7 +115,6 @@ else
     update_status alignment Failed
 fi
 
-# ---- STEP 4: Conservation plot (Plotcon) ----
 update_status conservation Running
 plotcon -sequence "$ALIGNED" -winsize 4 -graph png -goutfile "$BASE/conservation" -auto
 if [ $? -eq 0 ]; then
@@ -205,7 +204,6 @@ PYEOF;
         $s .= "fi\n\n";
     }
 
-    $s .= "# ---- ALL DONE ----\n";
     $s .= "echo 'JAHbio job {$job_id} complete.'\n";
 
     return $s;
