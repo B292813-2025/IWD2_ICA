@@ -53,14 +53,14 @@ $check = shell_exec("python3 -c \"
 from Bio import Entrez
 Entrez.email = 's2837201@ed.ac.uk'
 Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'
-handle = Entrez.esearch(db='protein', term='" . addslashes($protein) . "[All Fields] AND " . addslashes($taxon) . "[organism]', retmax=0)
+handle = Entrez.esearch(db='protein', term='" . addslashes($protein) . "[protein] AND " . addslashes($taxon) . "[organism]', retmax=0)
 record = Entrez.read(handle)
 print(record['Count'])
 \"");
 
 $count = intval(trim($check));
 if ($count < 2) {
-    $_SESSION['errors'] = ["No sequences found for \"" . ucfirst($protein) . "\" in \"" . ucfirst($taxon) . "\" on NCBI: found $count. Check your spelling or try a broader term (e.g. Rodentia instead of rodents)."];
+    $_SESSION['errors'] = ["No sequences found for \"" . ucfirst($protein) . " [protein]\" in \"" . ucfirst($taxon) . " [organism]\" on NCBI: found $count. Check your spelling or try a broader term (e.g. Rodentia instead of rodents)."];
     $_SESSION['old'] = ['protein' => $protein, 'taxon' => $taxon, 'max_seqs' => $max_seqs];
     header('Location: index.php');
     exit();

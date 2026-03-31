@@ -1,22 +1,25 @@
-import sys, subprocess, re as _re
+# Parses the FASTA file for this job and writes sequences.json
+# to the job directory. The actual DB insertion is handled by
+# import_sequences.php via PDO - I updated this file to comply with the PDO requirement
+
+import json
+import re as _re
 from Bio import Entrez, SeqIO
 
 job_id   = JOB_ID
-fasta    = 'BASE_DIR/sequences.fasta'
-username = 'DB_USER'
-password = 'DB_PASS'
-database = 'DB_NAME'
+fasta    = 'BASE_DIR/sequences.fasta' #file path
+out_json = 'BASE_DIR/sequences.json' #file path
 
 Entrez.email   = 's2837201@ed.ac.uk'
 Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'
 
-# Parse FASTA file
+# Parse FASTA file into records
 records = []
 with open(fasta) as f:
     header, seq = None, []
     for line in f:
         line = line.strip()
-        if line.startswith('>'):
+        if line.startswith('>'): # detect sequence
             if header:
                 records.append((header, ''.join(seq)))
             header = line[1:]
@@ -26,7 +29,6 @@ with open(fasta) as f:
     if header:
         records.append((header, ''.join(seq)))
 
-# Clean accessions
 def clean_acc(raw):
     acc = raw.split(' ', 1)[0]
     if '|' in acc:
@@ -41,28 +43,27 @@ def clean_acc(raw):
 
 accs = [clean_acc(h) for h, s in records]
 
-# Batch fetch organism names via GenBank records
+# Fetch organism names via GenBank format
 organism_map = {}
 try:
     handle  = Entrez.efetch(db='protein', id=','.join(accs), rettype='gb', retmode='text')
     gb_recs = list(SeqIO.parse(handle, 'genbank'))
     handle.close()
     for rec in gb_recs:
-        org = rec.annotations.get('organism', '')
-        # Map by accession (strip version)
+        org     = rec.annotations.get('organism', '')
         acc_key = rec.id.split('.')[0] if '.' in rec.id and '_' not in rec.id else rec.id
         organism_map[acc_key] = org
-        # Also map the full versioned accession
         organism_map[rec.id] = org
 except Exception as e:
     print(f'Warning: organism lookup failed: {e}')
 
-# Insert into database
+# Build list of sequence dicts to write to JSON
+output = []
 for (header, seq), acc in zip(records, accs):
-    parts = header.split(' ', 1)
-    desc  = parts[1] if len(parts) > 1 else ''
+    parts   = header.split(' ', 1)
+    desc    = parts[1] if len(parts) > 1 else ''
 
-    # Get organism from GenBank lookup, fall back to header parsing
+    # get species from GenBank search
     species = organism_map.get(acc, '')
     if not species:
         os_match = _re.search(r'OS=(.+?)(?:\s+OX=|\s+GN=|\s+PE=|\s*$)', desc)
@@ -71,12 +72,16 @@ for (header, seq), acc in zip(records, accs):
         elif '[' in desc and desc.endswith(']'):
             species = desc[desc.rfind('[')+1:-1]
 
-    length    = len(seq)
-    acc_s     = acc.replace("'", "\\'")
-    desc_s    = desc.replace("'", "\\'")
-    species_s = species.replace("'", "\\'")
+    output.append({
+        'accession': acc,
+        'description': desc,
+        'species': species,
+        'seq_length': len(seq)
+    })
 
-    sql = f"INSERT INTO sequences (job_id, accession, description, species, seq_length) VALUES ({job_id}, '{acc_s}', '{desc_s}', '{species_s}', {length});"
-    subprocess.run(['mysql', '-u', username, '-p'+password, database, '-e', sql]) #add to mySQL DB
+# write to JSON
+# DB insertion handled by import_sequences.php via PDO
+with open(out_json, 'w') as f:
+    json.dump(output, f)
 
-print(f'Inserted {len(records)} sequences.')
+print(f'Wrote {len(output)} sequences to sequences.json.')

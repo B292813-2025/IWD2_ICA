@@ -1,0 +1,34 @@
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Fetched 50 sequences.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Wrote 50 sequences to sequences.json.
+Inserted 50 sequences into DB.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_72/conservation.1.png
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Wrote 1 motif hits to motifs.json.
+Inserted 1 motif hits into DB.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+
+
+Building a new DB, current time: 03/31/2026 13:08:39
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_72/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_72/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 50 sequences in 0.18315 seconds.
+
+
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Structure predicted for KAN1727817.1
+mysql: [Warning] Using a password on the command line interface can be insecure.
+JAHbio job 72 complete.

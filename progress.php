@@ -252,7 +252,6 @@ function poll() {
                 if (step.status === 'Pending' || step.status === 'Running') allDone = false;
             });
 
-            // update progress bar
             const pct = Math.round((complete / totalSteps) * 100);
             document.getElementById('progress-bar').style.width = pct + '%';
             document.getElementById('progress-label').innerHTML =
@@ -269,12 +268,10 @@ function poll() {
                     window.location.href = 'results.php?job_id=' + jobId;
                 }, 1500);
             } else {
-                // poll again in 3 seconds
                 setTimeout(poll, 3000);
             }
         })
         .catch(() => {
-            // network error — try again in 5 seconds
             setTimeout(poll, 5000);
         });
 }

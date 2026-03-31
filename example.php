@@ -26,6 +26,9 @@
             <div>
                 <h1><span>JAH</span>bio</h1>
                 <p>Just Another Homology Tool. Except better&nbsp;;)</p>
+                </div>
+                <img src="images/jahbio.png" alt="Web logo" style="height:100px; opacity:0.9;">
+                </div>
             </div>
         </div>
     </div>
@@ -272,12 +275,12 @@
         <h3>Downloads</h3>
         <p>Raw output files for this example dataset:</p>
         <ul style="margin-left:24px; line-height:2.2;">
-            <li><a href="data/job_38/sequences.fasta" download>sequences.fasta</a> — All 50 retrieved sequences</li>
-            <li><a href="data/job_38/aligned.fasta" download>aligned.fasta</a> — ClustalOmega alignment</li>
-            <li><a href="data/job_38/motifs.txt" download>motifs.txt</a> — Patmatmotifs output</li>
-            <li><a href="data/job_38/blast.txt" download>blast.txt</a> — BLAST output</li>
-            <li><a href="data/job_38/structure.pdb" download>structure.pdb</a> — ESMFold predicted 3D structure</li>
-            <li><a href="data/job_38/log.txt" target="_blank">log.txt</a> — Analysis log</li>
+            <li><a href="data/job_38/sequences.fasta" download>sequences.fasta</a> - All 50 retrieved sequences</li>
+            <li><a href="data/job_38/aligned.fasta" download>aligned.fasta</a> - ClustalOmega alignment</li>
+            <li><a href="data/job_38/motifs.txt" download>motifs.txt</a> - Patmatmotifs output</li>
+            <li><a href="data/job_38/blast.txt" download>blast.txt</a> - BLAST output</li>
+            <li><a href="data/job_38/structure.pdb" download>structure.pdb</a> - ESMFold predicted 3D structure</li>
+            <li><a href="data/job_38/log.txt" target="_blank">log.txt</a> - Analysis log</li>
         </ul>
     </div>
 
@@ -292,7 +295,7 @@
 
 <div class="footer">
     <div class="container">
-        <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>
+        <p>JAHbio &mdash; Just Another Homology Tool &mdash; The University of Edinburgh</p>
         <p><a href="credits.php">Statement of Credits</a> &mdash; <a href="https://github.com/B292813-2025/IWD2_ICA" target="_blank">GitHub</a></p>
     </div>
 </div>

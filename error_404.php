@@ -129,16 +129,21 @@
 
 <div class="page-wrap">
 
+
 <div class="header">
     <div class="container">
         <div class="header-inner">
             <div>
                 <h1><span>JAH</span>bio</h1>
                 <p>Just Another Homology Tool. Except better&nbsp;;)</p>
+                </div>
+                <img src="images/jahbio.png" alt="Web logo" style="height:100px; opacity:0.9;">
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <div class="menu">
     <div class="container">
@@ -170,8 +175,9 @@
 
 <div class="footer">
     <div class="container">
-        <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>
-        <p><a href="/~s2837201/ICA/credits.php">Statement of Credits</a></p>
+        <p>JAHbio &mdash; Just Another Homology Tool &mdash; The University of Edinburgh</p>
+        <p><a href="credits.php">Statement of Credits</a> &mdash; <a href="https://github.com/B292813-2025/IWD2_ICA" target="_blank">GitHub</a>
+
     </div>
 </div>
 

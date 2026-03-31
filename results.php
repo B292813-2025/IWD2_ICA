@@ -387,7 +387,7 @@ $base_url  = 'data/job_' . $job_id;
                 BLAST results show pairwise sequence similarity between all retrieved
                 <?php echo htmlspecialchars($job['protein']); ?> sequences.
                 The E-value indicates the probability that a match of this quality would occur
-                by chance — lower E-values (e.g. &lt;1e-10) indicate highly significant similarity.
+                by chance. Lower E-values (e.g. &lt;1e-10) indicate highly significant similarity.
                 High percentage identity across species confirms orthologous relationships,
                 while lower identity scores may indicate paralogues or more distantly related
                 family members.
@@ -468,22 +468,22 @@ $base_url  = 'data/job_' . $job_id;
         <p>Raw output files for this analysis:</p>
         <ul style="margin-left:24px; line-height:2.2;">
             <?php if (file_exists($base_dir . '/sequences.fasta')): ?>
-                <li><a href="<?php echo $base_url; ?>/sequences.fasta" download>sequences.fasta</a> — all retrieved sequences</li>
+                <li><a href="<?php echo $base_url; ?>/sequences.fasta" download>sequences.fasta</a> - All retrieved sequences</li>
             <?php endif; ?>
             <?php if (file_exists($base_dir . '/aligned.fasta')): ?>
-                <li><a href="<?php echo $base_url; ?>/aligned.fasta" download>aligned.fasta</a> — ClustalOmega alignment</li>
+                <li><a href="<?php echo $base_url; ?>/aligned.fasta" download>aligned.fasta</a> - ClustalOmega alignment</li>
             <?php endif; ?>
             <?php if (file_exists($base_dir . '/motifs.txt')): ?>
-                <li><a href="<?php echo $base_url; ?>/motifs.txt" download>motifs.txt</a> — Patmatmotifs output</li>
+                <li><a href="<?php echo $base_url; ?>/motifs.txt" download>motifs.txt</a> - Patmatmotifs output</li>
             <?php endif; ?>
             <?php if (file_exists($base_dir . '/blast.txt')): ?>
-                <li><a href="<?php echo $base_url; ?>/blast.txt" download>blast.txt</a> — BLAST output</li>
+                <li><a href="<?php echo $base_url; ?>/blast.txt" download>blast.txt</a> - BLAST output</li>
             <?php endif; ?>
             <?php if (file_exists($base_dir . '/log.txt')): ?>
-                <li><a href="<?php echo $base_url; ?>/log.txt" target="_blank">log.txt</a> — analysis log</li>
+                <li><a href="<?php echo $base_url; ?>/log.txt" target="_blank">log.txt</a> - Analysis log</li>
             <?php endif; ?>
             <?php if (file_exists($base_dir . '/structure.pdb') && filesize($base_dir . '/structure.pdb') > 1000): ?>
-                <li><a href="<?php echo $base_url; ?>/structure.pdb" download>structure.pdb</a> — ESMFold predicted 3D structure (can be viewed in tools such as PyMol for further analysis)</li>
+                <li><a href="<?php echo $base_url; ?>/structure.pdb" download>structure.pdb</a> - ESMFold predicted 3D structure (can be viewed in tools such as PyMol for further analysis)</li>
             <?php endif; ?>
         </ul>
     </div>
@@ -493,7 +493,7 @@ $base_url  = 'data/job_' . $job_id;
 
 <div class="footer">
     <div class="container">
-        <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>
+        <p>JAHbio &mdash; Just Another Homology Tool &mdash; The University of Edinburgh</p>
         <p><a href="credits.php">Statement of Credits</a> &mdash; <a href="https://github.com/B292813-2025/IWD2_ICA" target="_blank">GitHub</a></p>
     </div>
 </div>

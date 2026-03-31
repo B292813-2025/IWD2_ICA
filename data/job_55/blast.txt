@@ -1,0 +1,310 @@
+# BLASTP 2.17.0+
+# Query: sp|Q8QGA2.1|TIP39_DANRE RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+sp|Q8QGA2.1|TIP39_DANRE	Q8QGA2.1	100.000	157	0	0	1	157	1	157	1.14e-116	318
+sp|Q8QGA2.1|TIP39_DANRE	P0C171.1	57.143	42	18	0	115	156	58	99	6.34e-16	60.5
+sp|Q8QGA2.1|TIP39_DANRE	Q96A98.1	57.143	42	18	0	115	156	58	99	6.34e-16	60.5
+sp|Q8QGA2.1|TIP39_DANRE	P0C172.1	57.500	40	17	0	117	156	60	99	1.12e-15	59.7
+sp|Q8QGA2.1|TIP39_DANRE	Q91W27.1	57.500	40	17	0	117	156	60	99	1.12e-15	59.7
+sp|Q8QGA2.1|TIP39_DANRE	NP_001268697.1	33.333	15	10	0	105	119	224	238	7.8	16.5
+# BLASTP 2.17.0+
+# Query: sp|Q91W27.1|TIP39_MOUSE RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+sp|Q91W27.1|TIP39_MOUSE	P0C172.1	100.000	100	0	0	1	100	1	100	1.86e-66	186
+sp|Q91W27.1|TIP39_MOUSE	Q91W27.1	100.000	100	0	0	1	100	1	100	1.86e-66	186
+sp|Q91W27.1|TIP39_MOUSE	P0C171.1	79.000	100	21	0	1	100	1	100	3.00e-44	130
+sp|Q91W27.1|TIP39_MOUSE	Q96A98.1	79.000	100	21	0	1	100	1	100	3.00e-44	130
+sp|Q91W27.1|TIP39_MOUSE	Q8QGA2.1	56.098	41	18	0	59	99	116	156	5.44e-16	60.1
+sp|Q91W27.1|TIP39_MOUSE	CAA87082.1	26.250	80	41	4	29	97	683	755	4.7	16.5
+# BLASTP 2.17.0+
+# Query: sp|Q96A98.1|TIP39_HUMAN RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+sp|Q96A98.1|TIP39_HUMAN	P0C171.1	100.000	100	0	0	1	100	1	100	2.69e-67	188
+sp|Q96A98.1|TIP39_HUMAN	Q96A98.1	100.000	100	0	0	1	100	1	100	2.69e-67	188
+sp|Q96A98.1|TIP39_HUMAN	P0C172.1	79.000	100	21	0	1	100	1	100	3.10e-43	127
+sp|Q96A98.1|TIP39_HUMAN	Q91W27.1	79.000	100	21	0	1	100	1	100	3.10e-43	127
+sp|Q96A98.1|TIP39_HUMAN	Q8QGA2.1	57.143	42	18	0	58	99	115	156	3.44e-16	60.5
+sp|Q96A98.1|TIP39_HUMAN	CAA87082.1	37.500	24	15	0	12	35	272	295	2.2	17.7
+sp|Q96A98.1|TIP39_HUMAN	AAQ72806.1	25.000	24	18	0	31	54	103	126	7.1	16.2
+# BLASTP 2.17.0+
+# Query: sp|P0C172.1|TIP39_RAT RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+sp|P0C172.1|TIP39_RAT	P0C172.1	100.000	100	0	0	1	100	1	100	1.86e-66	186
+sp|P0C172.1|TIP39_RAT	Q91W27.1	100.000	100	0	0	1	100	1	100	1.86e-66	186
+sp|P0C172.1|TIP39_RAT	P0C171.1	79.000	100	21	0	1	100	1	100	3.00e-44	130
+sp|P0C172.1|TIP39_RAT	Q96A98.1	79.000	100	21	0	1	100	1	100	3.00e-44	130
+sp|P0C172.1|TIP39_RAT	Q8QGA2.1	56.098	41	18	0	59	99	116	156	5.44e-16	60.1
+sp|P0C172.1|TIP39_RAT	CAA87082.1	26.250	80	41	4	29	97	683	755	4.7	16.5
+# BLASTP 2.17.0+
+# Query: NP_001268697.1 adenylate cyclase type 1 isoform 2 [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 15 hits found
+NP_001268697.1	NP_001268697.1	100.000	338	0	0	1	338	1	338	0.0	705
+NP_001268697.1	NP_066939.1	100.000	310	0	0	1	310	226	535	0.0	654
+NP_001268697.1	NP_066939.1	29.817	218	133	6	15	217	810	1022	4.82e-26	99.4
+NP_001268697.1	CAA87082.1	42.471	259	125	1	3	237	339	597	1.09e-63	209
+NP_001268697.1	CAA87082.1	23.735	257	164	8	28	263	1059	1304	4.33e-20	81.6
+NP_001268697.1	CAA87082.1	29.412	34	22	1	29	62	757	788	3.1	19.2
+NP_001268697.1	8CO7_A	33.333	51	21	3	62	104	31	76	0.046	25.0
+NP_001268697.1	8CO7_A	25.424	59	30	2	6	62	175	221	2.3	19.6
+NP_001268697.1	8COJ_A	33.333	51	21	3	62	104	31	76	0.046	25.0
+NP_001268697.1	8COJ_A	25.424	59	30	2	6	62	175	221	2.3	19.6
+NP_001268697.1	8COT_A	33.333	51	21	3	62	104	31	76	0.046	25.0
+NP_001268697.1	8COT_A	25.424	59	30	2	6	62	175	221	2.3	19.6
+NP_001268697.1	8CNH_A	33.333	51	21	3	62	104	31	76	0.046	25.0
+NP_001268697.1	8CNH_A	25.424	59	30	2	6	62	175	221	2.3	19.6
+NP_001268697.1	1QFW_I	41.667	12	7	0	189	200	107	118	3.9	18.5
+# BLASTP 2.17.0+
+# Query: NP_066939.1 adenylate cyclase type 1 isoform 1 [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 18 hits found
+NP_066939.1	NP_066939.1	100.000	1119	0	0	1	1119	1	1119	0.0	2298
+NP_066939.1	NP_001268697.1	100.000	310	0	0	226	535	1	310	0.0	654
+NP_066939.1	NP_001268697.1	29.817	218	133	6	810	1022	15	217	1.94e-25	99.4
+NP_066939.1	CAA87082.1	45.977	261	132	4	803	1062	1039	1291	4.65e-62	221
+NP_066939.1	CAA87082.1	42.029	276	135	2	211	462	323	597	2.99e-61	219
+NP_066939.1	CAA87082.1	21.429	504	324	13	562	1028	115	583	6.15e-20	85.9
+NP_066939.1	CAA87082.1	23.735	257	164	8	253	488	1059	1304	3.08e-19	83.6
+NP_066939.1	CAA87082.1	29.412	34	22	1	254	287	757	788	5.1	20.4
+NP_066939.1	8CO7_A	24.638	69	47	2	942	1009	353	417	0.005	30.0
+NP_066939.1	8CO7_A	33.333	51	21	3	287	329	31	76	0.17	25.0
+NP_066939.1	8COJ_A	24.638	69	47	2	942	1009	353	417	0.005	30.0
+NP_066939.1	8COJ_A	33.333	51	21	3	287	329	31	76	0.17	25.0
+NP_066939.1	8COT_A	24.638	69	47	2	942	1009	353	417	0.005	30.0
+NP_066939.1	8COT_A	33.333	51	21	3	287	329	31	76	0.17	25.0
+NP_066939.1	8CNH_A	24.638	69	47	2	942	1009	353	417	0.005	30.0
+NP_066939.1	8CNH_A	33.333	51	21	3	287	329	31	76	0.17	25.0
+NP_066939.1	NP_001157392.1	52.941	17	8	0	552	568	108	124	2.1	21.6
+NP_066939.1	1QFW_I	41.667	12	7	0	414	425	107	118	9.5	18.9
+# BLASTP 2.17.0+
+# Query: pdb|8CNH|A Chain A, Adenylate cyclase type 10
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+pdb|8CNH|A	8CO7_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CNH|A	8COJ_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CNH|A	8COT_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CNH|A	8CNH_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CNH|A	CAA87082.1	32.099	81	49	3	341	417	486	564	2.07e-06	40.0
+pdb|8CNH|A	CAA87082.1	36.111	36	22	1	382	417	1204	1238	0.042	25.8
+pdb|8CNH|A	CAA87082.1	36.957	46	19	3	33	76	427	464	0.19	23.9
+pdb|8CNH|A	CAA87082.1	35.000	20	13	0	204	223	771	790	9.9	18.1
+pdb|8CNH|A	NP_066939.1	24.638	69	47	2	353	417	942	1009	0.002	30.4
+pdb|8CNH|A	NP_066939.1	33.333	51	21	3	31	76	287	329	0.082	25.0
+pdb|8CNH|A	NP_066939.1	25.424	59	30	2	175	221	231	287	5.3	19.2
+pdb|8CNH|A	NP_001268697.1	33.333	51	21	3	31	76	62	104	0.069	25.0
+pdb|8CNH|A	NP_001268697.1	25.424	59	30	2	175	221	6	62	3.1	19.6
+# BLASTP 2.17.0+
+# Query: pdb|8COT|A Chain A, Adenylate cyclase type 10
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+pdb|8COT|A	8CO7_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COT|A	8COJ_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COT|A	8COT_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COT|A	8CNH_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COT|A	CAA87082.1	32.099	81	49	3	341	417	486	564	2.07e-06	40.0
+pdb|8COT|A	CAA87082.1	36.111	36	22	1	382	417	1204	1238	0.042	25.8
+pdb|8COT|A	CAA87082.1	36.957	46	19	3	33	76	427	464	0.19	23.9
+pdb|8COT|A	CAA87082.1	35.000	20	13	0	204	223	771	790	9.9	18.1
+pdb|8COT|A	NP_066939.1	24.638	69	47	2	353	417	942	1009	0.002	30.4
+pdb|8COT|A	NP_066939.1	33.333	51	21	3	31	76	287	329	0.082	25.0
+pdb|8COT|A	NP_066939.1	25.424	59	30	2	175	221	231	287	5.3	19.2
+pdb|8COT|A	NP_001268697.1	33.333	51	21	3	31	76	62	104	0.069	25.0
+pdb|8COT|A	NP_001268697.1	25.424	59	30	2	175	221	6	62	3.1	19.6
+# BLASTP 2.17.0+
+# Query: pdb|8COJ|A Chain A, Adenylate cyclase type 10
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+pdb|8COJ|A	8CO7_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COJ|A	8COJ_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COJ|A	8COT_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COJ|A	8CNH_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8COJ|A	CAA87082.1	32.099	81	49	3	341	417	486	564	2.07e-06	40.0
+pdb|8COJ|A	CAA87082.1	36.111	36	22	1	382	417	1204	1238	0.042	25.8
+pdb|8COJ|A	CAA87082.1	36.957	46	19	3	33	76	427	464	0.19	23.9
+pdb|8COJ|A	CAA87082.1	35.000	20	13	0	204	223	771	790	9.9	18.1
+pdb|8COJ|A	NP_066939.1	24.638	69	47	2	353	417	942	1009	0.002	30.4
+pdb|8COJ|A	NP_066939.1	33.333	51	21	3	31	76	287	329	0.082	25.0
+pdb|8COJ|A	NP_066939.1	25.424	59	30	2	175	221	231	287	5.3	19.2
+pdb|8COJ|A	NP_001268697.1	33.333	51	21	3	31	76	62	104	0.069	25.0
+pdb|8COJ|A	NP_001268697.1	25.424	59	30	2	175	221	6	62	3.1	19.6
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|I Chain I, ANTIBODY (ANTI BETA SUBUNIT) (HEAVY CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+pdb|1QFW|I	1QFW_I	100.000	122	0	0	1	122	1	122	1.82e-92	253
+pdb|1QFW|I	1QFW_H	47.541	122	59	1	1	122	1	117	2.43e-33	104
+pdb|1QFW|I	1QFW_M	31.132	106	58	7	15	120	16	106	1.48e-05	32.3
+pdb|1QFW|I	1QFW_L	29.365	126	67	8	2	120	2	112	1.68e-05	32.3
+pdb|1QFW|I	NP_066939.1	41.667	12	7	0	107	118	414	425	1.0	18.9
+pdb|1QFW|I	NP_066939.1	50.000	14	5	1	109	122	996	1007	1.8	18.1
+pdb|1QFW|I	NP_001268697.1	41.667	12	7	0	107	118	189	200	1.4	18.5
+pdb|1QFW|I	AAQ72806.1	31.250	32	22	0	55	86	144	175	2.9	17.7
+pdb|1QFW|I	CAA87082.1	42.857	14	6	1	109	122	1225	1236	6.1	16.5
+pdb|1QFW|I	8CO7_A	20.000	30	24	0	20	49	425	454	8.1	16.2
+pdb|1QFW|I	8CO7_A	83.333	6	1	0	59	64	420	425	8.5	16.2
+pdb|1QFW|I	8COJ_A	20.000	30	24	0	20	49	425	454	8.1	16.2
+pdb|1QFW|I	8COJ_A	83.333	6	1	0	59	64	420	425	8.5	16.2
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|M Chain M, ANTIBODY (ANTI BETA SUBUNIT) (LIGHT CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 11 hits found
+pdb|1QFW|M	1QFW_M	100.000	108	0	0	1	108	1	108	6.36e-82	226
+pdb|1QFW|M	1QFW_L	64.035	114	35	2	1	108	1	114	3.67e-51	148
+pdb|1QFW|M	1QFW_I	31.132	106	58	7	16	106	15	120	1.31e-05	32.3
+pdb|1QFW|M	1QFW_H	29.060	117	68	7	2	106	2	115	6.03e-05	30.4
+pdb|1QFW|M	AAQ72806.1	27.273	44	32	0	55	98	150	193	0.35	20.0
+pdb|1QFW|M	AAQ72806.1	66.667	9	3	0	15	23	69	77	4.0	16.9
+pdb|1QFW|M	1QFW_A	31.250	16	11	0	79	94	75	90	4.1	16.5
+pdb|1QFW|M	1QFW_B	50.000	10	5	0	88	97	100	109	7.0	16.2
+pdb|1QFW|M	8CO7_A	50.000	12	6	0	89	100	397	408	7.4	16.2
+pdb|1QFW|M	8COJ_A	50.000	12	6	0	89	100	397	408	7.4	16.2
+pdb|1QFW|M	8COT_A	50.000	12	6	0	89	100	397	408	7.4	16.2
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|H Chain H, ANTIBODY (ANTI ALPHA SUBUNIT) (HEAVY CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+pdb|1QFW|H	1QFW_H	100.000	117	0	0	1	117	1	117	2.95e-88	243
+pdb|1QFW|H	1QFW_I	47.967	123	57	2	1	117	1	122	9.17e-37	112
+pdb|1QFW|H	1QFW_M	30.769	117	66	7	2	115	2	106	7.30e-08	38.5
+pdb|1QFW|H	1QFW_L	25.000	120	75	5	2	115	2	112	3.28e-06	33.9
+pdb|1QFW|H	CAA87082.1	31.034	29	20	0	54	82	803	831	1.4	18.5
+pdb|1QFW|H	NP_001157392.1	55.556	9	4	0	53	61	101	109	6.8	16.5
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|L Chain L, ANTIBODY (ANTI ALPHA SUBUNIT) (LIGHT CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 14 hits found
+pdb|1QFW|L	1QFW_L	100.000	114	0	0	1	114	1	114	4.11e-86	237
+pdb|1QFW|L	1QFW_M	64.035	114	35	2	1	114	1	108	3.87e-51	148
+pdb|1QFW|L	1QFW_I	29.365	126	67	8	2	112	2	120	1.57e-05	32.3
+pdb|1QFW|L	1QFW_H	35.556	45	26	2	2	46	2	43	1.15e-04	29.6
+pdb|1QFW|L	CAA87082.1	35.000	20	13	0	91	110	954	973	4.4	16.9
+pdb|1QFW|L	CAA87082.1	38.462	13	8	0	62	74	755	767	6.7	16.5
+pdb|1QFW|L	8CO7_A	43.750	16	9	0	91	106	26	41	6.0	16.5
+pdb|1QFW|L	8CO7_A	42.857	14	8	0	2	15	202	215	9.2	15.8
+pdb|1QFW|L	8COJ_A	43.750	16	9	0	91	106	26	41	6.0	16.5
+pdb|1QFW|L	8COJ_A	42.857	14	8	0	2	15	202	215	9.2	15.8
+pdb|1QFW|L	8COT_A	43.750	16	9	0	91	106	26	41	6.0	16.5
+pdb|1QFW|L	8COT_A	42.857	14	8	0	2	15	202	215	9.2	15.8
+pdb|1QFW|L	8CNH_A	43.750	16	9	0	91	106	26	41	6.0	16.5
+pdb|1QFW|L	8CNH_A	42.857	14	8	0	2	15	202	215	9.2	15.8
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|B Chain B, GONADOTROPHIN BETA SUBUNIT
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+pdb|1QFW|B	1QFW_B	100.000	145	0	0	1	145	1	145	8.85e-105	286
+pdb|1QFW|B	NP_001157392.1	39.130	23	13	1	88	109	349	371	2.3	18.1
+pdb|1QFW|B	AAQ72806.1	100.000	4	0	0	70	73	52	55	7.0	16.9
+pdb|1QFW|B	1QFW_M	50.000	10	5	0	100	109	88	97	7.8	16.2
+pdb|1QFW|B	CAA87082.1	46.154	13	7	0	92	104	125	137	8.4	16.5
+pdb|1QFW|B	8CO7_A	38.095	21	13	0	45	65	282	302	9.7	16.2
+pdb|1QFW|B	8COJ_A	38.095	21	13	0	45	65	282	302	9.7	16.2
+pdb|1QFW|B	8COT_A	38.095	21	13	0	45	65	282	302	9.7	16.2
+pdb|1QFW|B	8CNH_A	38.095	21	13	0	45	65	282	302	9.7	16.2
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|A Chain A, GONADOTROPIN ALPHA SUBUNIT
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+pdb|1QFW|A	1QFW_A	100.000	92	0	0	1	92	1	92	3.11e-69	192
+pdb|1QFW|A	1QFW_M	31.250	16	11	0	75	90	79	94	3.5	16.5
+# BLASTP 2.17.0+
+# Query: pdb|1A6Q|A Chain A, PHOSPHATASE 2C
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+pdb|1A6Q|A	1A6Q_A	100.000	382	0	0	1	382	1	382	0.0	798
+pdb|1A6Q|A	AAQ72806.1	66.667	9	3	0	150	158	174	182	2.7	19.6
+pdb|1A6Q|A	AAQ72806.1	17.722	79	56	1	97	175	313	382	8.6	18.1
+pdb|1A6Q|A	CAA87082.1	25.581	43	32	0	109	151	1251	1293	8.6	18.1
+# BLASTP 2.17.0+
+# Query: sp|P0C171.1|TIP39_BOVIN RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+sp|P0C171.1|TIP39_BOVIN	P0C171.1	100.000	100	0	0	1	100	1	100	2.69e-67	188
+sp|P0C171.1|TIP39_BOVIN	Q96A98.1	100.000	100	0	0	1	100	1	100	2.69e-67	188
+sp|P0C171.1|TIP39_BOVIN	P0C172.1	79.000	100	21	0	1	100	1	100	3.10e-43	127
+sp|P0C171.1|TIP39_BOVIN	Q91W27.1	79.000	100	21	0	1	100	1	100	3.10e-43	127
+sp|P0C171.1|TIP39_BOVIN	Q8QGA2.1	57.143	42	18	0	58	99	115	156	3.44e-16	60.5
+sp|P0C171.1|TIP39_BOVIN	CAA87082.1	37.500	24	15	0	12	35	272	295	2.2	17.7
+sp|P0C171.1|TIP39_BOVIN	AAQ72806.1	25.000	24	18	0	31	54	103	126	7.1	16.2
+# BLASTP 2.17.0+
+# Query: NP_001157392.1 pantetheine hydrolase VNN2 [Bos taurus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+NP_001157392.1	NP_001157392.1	100.000	467	0	0	1	467	1	467	0.0	985
+NP_001157392.1	NP_066939.1	52.941	17	8	0	108	124	552	568	0.90	21.6
+NP_001157392.1	1QFW_B	39.130	23	13	1	349	371	88	109	6.0	18.5
+# BLASTP 2.17.0+
+# Query: pdb|8CO7|A Chain A, Adenylate cyclase type 10
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+pdb|8CO7|A	8CO7_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CO7|A	8COJ_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CO7|A	8COT_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CO7|A	8CNH_A	100.000	475	0	0	1	475	1	475	0.0	989
+pdb|8CO7|A	CAA87082.1	32.099	81	49	3	341	417	486	564	2.07e-06	40.0
+pdb|8CO7|A	CAA87082.1	36.111	36	22	1	382	417	1204	1238	0.042	25.8
+pdb|8CO7|A	CAA87082.1	36.957	46	19	3	33	76	427	464	0.19	23.9
+pdb|8CO7|A	CAA87082.1	35.000	20	13	0	204	223	771	790	9.9	18.1
+pdb|8CO7|A	NP_066939.1	24.638	69	47	2	353	417	942	1009	0.002	30.4
+pdb|8CO7|A	NP_066939.1	33.333	51	21	3	31	76	287	329	0.082	25.0
+pdb|8CO7|A	NP_066939.1	25.424	59	30	2	175	221	231	287	5.3	19.2
+pdb|8CO7|A	NP_001268697.1	33.333	51	21	3	31	76	62	104	0.069	25.0
+pdb|8CO7|A	NP_001268697.1	25.424	59	30	2	175	221	6	62	3.1	19.6
+# BLASTP 2.17.0+
+# Query: CAA87082.1 adenyl cyclase [Xenopus laevis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 20 hits found
+CAA87082.1	CAA87082.1	100.000	1355	0	0	1	1355	1	1355	0.0	2815
+CAA87082.1	NP_001268697.1	43.629	259	122	3	339	597	3	237	6.64e-64	211
+CAA87082.1	NP_001268697.1	23.922	255	162	8	1059	1302	28	261	1.92e-19	81.6
+CAA87082.1	NP_066939.1	44.604	278	145	4	1022	1291	786	1062	6.10e-62	221
+CAA87082.1	NP_066939.1	43.116	276	132	4	323	597	211	462	9.54e-62	221
+CAA87082.1	NP_066939.1	22.090	421	261	12	193	583	645	1028	3.44e-22	93.2
+CAA87082.1	NP_066939.1	23.735	257	164	8	1059	1304	253	488	2.84e-19	84.0
+CAA87082.1	NP_066939.1	29.412	34	22	1	757	788	254	287	7.7	20.0
+CAA87082.1	8CO7_A	32.099	81	49	3	486	564	341	417	6.54e-06	39.7
+CAA87082.1	8CO7_A	36.111	36	22	1	1204	1238	382	417	0.13	25.8
+CAA87082.1	8CO7_A	36.957	46	19	3	427	464	33	76	0.47	23.9
+CAA87082.1	8COJ_A	32.099	81	49	3	486	564	341	417	6.54e-06	39.7
+CAA87082.1	8COJ_A	36.111	36	22	1	1204	1238	382	417	0.13	25.8
+CAA87082.1	8COJ_A	36.957	46	19	3	427	464	33	76	0.47	23.9
+CAA87082.1	8COT_A	32.099	81	49	3	486	564	341	417	6.54e-06	39.7
+CAA87082.1	8COT_A	36.111	36	22	1	1204	1238	382	417	0.13	25.8
+CAA87082.1	8COT_A	36.957	46	19	3	427	464	33	76	0.47	23.9
+CAA87082.1	8CNH_A	32.099	81	49	3	486	564	341	417	6.54e-06	39.7
+CAA87082.1	8CNH_A	36.111	36	22	1	1204	1238	382	417	0.13	25.8
+CAA87082.1	8CNH_A	36.957	46	19	3	427	464	33	76	0.47	23.9
+# BLASTP 2.17.0+
+# Query: AAQ72806.1 pituitary adenyl cyclase activating polypeptide 1 receptor type 1 [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_55/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+AAQ72806.1	AAQ72806.1	100.000	468	0	0	1	468	1	468	0.0	973
+AAQ72806.1	1QFW_M	27.273	44	32	0	150	193	55	98	1.3	20.4
+AAQ72806.1	1A6Q_A	35.000	20	13	0	163	182	139	158	3.0	19.6
+AAQ72806.1	1A6Q_A	17.722	79	56	1	313	382	97	175	9.8	18.1
+AAQ72806.1	CAA87082.1	34.615	26	17	0	181	206	331	356	4.9	19.2
+# BLAST processed 21 queries

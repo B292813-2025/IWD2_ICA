@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,16 +48,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback — JAHbio</title>
     <link rel="stylesheet" href="style2.css">
+    <style>
+        .content { min-height: 60vh; }
+    </style>
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
 <div class="header">
     <div class="container">
         <div class="header-inner">
             <div>
                 <h1><span>JAH</span>bio</h1>
                 <p>Just Another Homology Tool. Except better&nbsp;;)</p>
+                </div>
+                <img src="images/jahbio.png" alt="Web logo" style="height:100px; opacity:0.9;">
+                </div>
             </div>
         </div>
     </div>
@@ -83,7 +89,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h2>Feedback</h2>
 
     <?php if ($submitted): ?>
-    // displays a thank you message
         <div class="success">
             Thank you for your feedback - it has been submitted successfully and will
             be reviewed as part of JAHbio's ongoing development.
@@ -124,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- ===== FOOTER ===== -->
 <div class="footer">
     <div class="container">
-        <p>JAHbio &mdash; Just Another Homology Tool | The University of Edinburgh</p>
+        <p>JAHbio &mdash; Just Another Homology Tool &mdash; The University of Edinburgh</p>
         <p><a href="credits.php">Statement of Credits</a> &mdash; <a href="https://github.com/B292813-2025/IWD2_ICA" target="_blank">GitHub</a></p>
     </div>
 </div>
