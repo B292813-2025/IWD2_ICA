@@ -1,14 +1,15 @@
+# parse_sequences.py
 # Parses the FASTA file for this job and writes sequences.json
 # to the job directory. The actual DB insertion is handled by
-# import_sequences.php via PDO - I updated this file to comply with the PDO requirement
+# import_sequences.php via PDO, to comply with the PDO requirement.
 
 import json
 import re as _re
 from Bio import Entrez, SeqIO
 
 job_id   = JOB_ID
-fasta    = 'BASE_DIR/sequences.fasta' #file path
-out_json = 'BASE_DIR/sequences.json' #file path
+fasta    = 'BASE_DIR/sequences.fasta'
+out_json = 'BASE_DIR/sequences.json'
 
 Entrez.email   = 's2837201@ed.ac.uk'
 Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'
@@ -19,7 +20,7 @@ with open(fasta) as f:
     header, seq = None, []
     for line in f:
         line = line.strip()
-        if line.startswith('>'): # detect sequence
+        if line.startswith('>'):
             if header:
                 records.append((header, ''.join(seq)))
             header = line[1:]
@@ -30,6 +31,7 @@ with open(fasta) as f:
         records.append((header, ''.join(seq)))
 
 def clean_acc(raw):
+    """Clean accession from various NCBI formats into a simple ID."""
     acc = raw.split(' ', 1)[0]
     if '|' in acc:
         parts = acc.split('|')
@@ -38,12 +40,17 @@ def clean_acc(raw):
         else:
             acc = parts[1]
     if '.' in acc and '_' not in acc:
-        acc = acc.split('.')[0]
+        base = acc.split('.')[0]
+        # Only strip version from UniProt-style accessions (e.g. P35575.2)
+        # GenBank/RefSeq accessions like KAI1230272.1 should keep their version
+        import re as _re2
+        if _re2.match(r'^[A-Z][0-9][A-Z0-9]{3}[0-9]$', base):
+            acc = base
     return acc
 
 accs = [clean_acc(h) for h, s in records]
 
-# Fetch organism names via GenBank format
+# Batch fetch organism names via GenBank format
 organism_map = {}
 try:
     handle  = Entrez.efetch(db='protein', id=','.join(accs), rettype='gb', retmode='text')
@@ -63,7 +70,7 @@ for (header, seq), acc in zip(records, accs):
     parts   = header.split(' ', 1)
     desc    = parts[1] if len(parts) > 1 else ''
 
-    # get species from GenBank search
+    # Get species from GenBank lookup, fall back to header parsing
     species = organism_map.get(acc, '')
     if not species:
         os_match = _re.search(r'OS=(.+?)(?:\s+OX=|\s+GN=|\s+PE=|\s*$)', desc)
@@ -79,8 +86,7 @@ for (header, seq), acc in zip(records, accs):
         'seq_length': len(seq)
     })
 
-# write to JSON
-# DB insertion handled by import_sequences.php via PDO
+# Write to JSON — DB insertion handled by import_sequences.php via PDO
 with open(out_json, 'w') as f:
     json.dump(output, f)
 

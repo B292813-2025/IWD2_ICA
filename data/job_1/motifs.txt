@@ -1,6 +1,6 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Thu 19 Mar 2026 12:34:06
+# Rundate: Wed  1 Apr 2026 01:18:56
 # Commandline: patmatmotifs
 #    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_1/sequences.fasta
 #    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_1/motifs.txt
@@ -11,7 +11,7 @@
 
 #=======================================
 #
-# Sequence: KAJ7421106.1     from: 1   to: 358
+# Sequence: KAN1727817.1     from: 1   to: 358
 # HitCount: 1
 #
 # Full: No
@@ -26,7 +26,7 @@ End = position 142 of sequence
 
 Motif = AMIDATION
 
-LLSAAGGKKQSRTL
+LLSAAAGKKQSRTL
      |  |
    139  142
 

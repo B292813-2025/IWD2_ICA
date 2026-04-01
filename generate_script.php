@@ -1,16 +1,16 @@
 <?php
-// Returns the complete run_analysis.sh bash script as a string.
-// Called once per job from search.php.
+// Returns the complete run_analysis.sh bash script as a string
+// Called once per job from search.php
 
 function generate_script($job_id, $base_dir, $protein, $taxon, $max_seqs,
                           $do_align, $do_motif, $do_blast, $do_pymol,
-                          $username, $password, $database) {
+                          $username, $password, $database, $search_type = 'All Fields') {
 
     $protein_safe = escapeshellarg($protein);
     $taxon_safe   = escapeshellarg($taxon);
     $db_update    = "mysql -u $username -p$password $database -e";
 
-    //  Header and environment
+    // Header and environment
     $s  = "#!/bin/bash\n";
     $s .= "export PATH=/localdisk/home/s2837201/edirect:/usr/bin:/localdisk/home/ubuntu-software/blast217/ncbi-blast-2.17.0+-src/c++/ReleaseMT/bin:/bin\n";
     $s .= "export MPLCONFIGDIR=/tmp\n";
@@ -27,7 +27,7 @@ function generate_script($job_id, $base_dir, $protein, $taxon, $max_seqs,
     $s .= 'ALIGNED="$BASE/aligned.fasta"' . "\n";
     $s .= "DB_UPDATE=\"{$db_update}\"\n\n";
 
-    // update_status helper
+    // update_status helper 
     $s .= <<<'BASH'
 update_status() {
     if [ -z "$3" ]; then
@@ -39,21 +39,33 @@ update_status() {
 
 BASH;
 
-    // 1: Fetch using Biopython
+    // 1: Fetch using Biopython 
     $s .= "update_status fetch Running\n";
     $s .= "python3 - <<'PYEOF'\n";
     $s .= "from Bio import Entrez, SeqIO\n";
     $s .= "import sys\n\n";
     $s .= "Entrez.email   = 's2837201@ed.ac.uk'\n";
     $s .= "Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'\n";
-    $s .= "search_term = '{$protein}[protein] AND {$taxon}[organism]'\n";
+    $s .= "search_term = '{$protein}[{$search_type}] AND {$taxon}[organism]'\n";
     $s .= "fasta_out   = '{$base_dir}/sequences.fasta'\n";
     $s .= "max_seqs    = {$max_seqs}\n\n";
     $s .= <<<'PYEOF'
-handle  = Entrez.esearch(db='protein', term=search_term, retmax=max_seqs)
-record  = Entrez.read(handle)
-handle.close()
-id_list = record['IdList']
+
+import time
+id_list = []
+for attempt in range(3):
+    try:
+        handle  = Entrez.esearch(db='protein', term=search_term, retmax=max_seqs)
+        record  = Entrez.read(handle)
+        handle.close()
+        id_list = record['IdList']
+        break
+    except RuntimeError:
+        if attempt < 2:
+            time.sleep(3)
+        else:
+            print('NCBI search failed after 3 attempts')
+            sys.exit(1)
 
 if len(id_list) < 2:
     print(f"Only {len(id_list)} sequences found - exiting")
@@ -76,7 +88,7 @@ PYEOF;
     $s .= "python3 \$BASE/parse_sequences.py\n";
     $s .= "php /localdisk/home/s2837201/public_html/ICA/import_sequences.php \$JOB_ID \$BASE\n\n";
 
-    // 2: Histogram
+    // 2: Histogram 
     $s .= "update_status histogram Running\n";
     $s .= "python3 - <<'PYEOF'\n";
     $s .= "import matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\n\n";
@@ -104,7 +116,7 @@ PYEOF;
     $s .= "\nPYEOF\n";
     $s .= "update_status histogram Complete '{$base_dir}/histogram.png'\n\n";
 
-    // 3,4: Alignment + Conservation
+    // 3+4: Alignment + Conservation 
     if ($do_align) {
         $s .= <<<'BASH'
 update_status alignment Running
@@ -126,7 +138,7 @@ fi
 BASH;
     }
 
-    // 5: PROSITE motif scan
+    // 5: PROSITE motif scan 
     if ($do_motif) {
         $s .= <<<'BASH'
 update_status motif Running
@@ -161,7 +173,7 @@ fi
 BASH;
     }
 
-    // 7: ESMFold structure prediction
+    // 7: ESMFold structure prediction 
     if ($do_pymol) {
         $s .= "update_status pymol Running\n";
         $s .= "python3 - <<'PYEOF'\n";
@@ -174,7 +186,7 @@ BASH;
 rec = next(SeqIO.parse(fasta, 'fasta'))
 seq = str(rec.seq)
 
-# Truncate to 400aa max - ESMFold is slow on very long sequences - poor user experience if they have to wait long
+# Truncate to 400aa max — ESMFold is slow on very long sequences
 seq = seq[:400]
 
 result = subprocess.run(

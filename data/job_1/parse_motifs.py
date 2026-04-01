@@ -1,23 +1,14 @@
-import subprocess, re
+# parses the Patmatmotifs output for this job and writes motifs.json to the job directory. 
+# the actual DB insertion is handled by import_motifs.php via PDO
+
+import json
+import re
 
 job_id     = 1
 motif_file = '/localdisk/home/s2837201/public_html/ICA/data/job_1/motifs.txt'
-username   = 's2837201'
-password   = 'Elijah271202?'
-database   = 's2837201_ICA'
+out_json   = '/localdisk/home/s2837201/public_html/ICA/data/job_1/motifs.json'
 
-# Build seq_id lookup from DB
-result = subprocess.run(
-    ['mysql', '-u', username, '-p'+password, database,
-     '--batch', '--skip-column-names', '-e',
-     f'SELECT seq_id, accession FROM sequences WHERE job_id={job_id};'],
-    capture_output=True, text=True
-)
-seq_lookup = {}
-for line in result.stdout.strip().split('\n'):
-    if '\t' in line:
-        parts = line.split('\t')
-        seq_lookup[parts[1]] = parts[0]
+output = []
 
 current_acc = None
 motif_name = start = end = None
@@ -25,23 +16,44 @@ motif_name = start = end = None
 with open(motif_file) as f:
     for line in f:
         line = line.rstrip()
+
+        # match sequence header line ("# Sequence: KAJ7421106.1")
         m = re.match(r'^# Sequence: (\S+)', line)
         if m:
             current_acc = m.group(1)
+            # strip to match the accessions in sequences table
+            if '.' in current_acc and '_' not in current_acc:
+                current_acc = current_acc.split('.')[0]
             motif_name = start = end = None
+
+        # match start position
         m = re.match(r'^Start = position (\d+)', line)
         if m:
-            start = m.group(1)
+            start = int(m.group(1))
+
+        # match end position
         m = re.match(r'^End = position (\d+)', line)
         if m:
-            end = m.group(1)
+            end = int(m.group(1))
+
+        # match motif name (appears after start and end in patmatmotifs output)
         m = re.match(r'^Motif = (\S+)', line)
         if m:
             motif_name = m.group(1)
+
+        # Once all three are collected - record 
         if motif_name and start and end and current_acc:
-            seq_id = seq_lookup.get(current_acc, 'NULL')
-            sql = f"INSERT INTO motif_results (job_id, seq_id, motif_name, start_pos, end_pos, score) VALUES ({job_id}, {seq_id}, '{motif_name}', {start}, {end}, 0);"
-            subprocess.run(['mysql', '-u', username, '-p'+password, database, '-e', sql])
+            output.append({
+                'accession':  current_acc,
+                'motif_name': motif_name,
+                'start_pos':  start,
+                'end_pos':    end,
+                'score':      0
+            })
             motif_name = start = end = None
 
-print('Motif parsing complete.')
+# write to JSON —-> DB insertion handled by import_motifs.php via PDO
+with open(out_json, 'w') as f:
+    json.dump(output, f)
+
+print(f'Wrote {len(output)} motif hits to motifs.json.')

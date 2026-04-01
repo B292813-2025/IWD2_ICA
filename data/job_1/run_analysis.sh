@@ -20,6 +20,7 @@ update_status() {
         $DB_UPDATE "UPDATE analysis SET status='$2', output_file='$3' WHERE job_id=$JOB_ID AND analysis_type='$1';"
     fi
 }
+# ---- STEP 1: Fetch sequences from NCBI ----
 update_status fetch Running
 python3 - <<'PYEOF'
 from Bio import Entrez, SeqIO
@@ -27,21 +28,26 @@ import sys
 
 Entrez.email   = 's2837201@ed.ac.uk'
 Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'
-search_term = 'glucose-6-phosphatase[protein] AND Aves[organism] NOT partial[title]'
+search_term = 'glucose-6-phosphatase[protein] AND Aves[organism]'
 fasta_out   = '/localdisk/home/s2837201/public_html/ICA/data/job_1/sequences.fasta'
 max_seqs    = 50
 
-tax_handle = Entrez.esearch(db='taxonomy', term='Aves')
-tax_record = Entrez.read(tax_handle)
-tax_handle.close()
-if tax_record['Count'] == '0':
-    print('Taxon not found in NCBI taxonomy: Aves')
-    sys.exit(1)
 
-handle  = Entrez.esearch(db='protein', term=search_term, retmax=max_seqs)
-record  = Entrez.read(handle)
-handle.close()
-id_list = record['IdList']
+import time
+id_list = []
+for attempt in range(3):
+    try:
+        handle  = Entrez.esearch(db='protein', term=search_term, retmax=max_seqs)
+        record  = Entrez.read(handle)
+        handle.close()
+        id_list = record['IdList']
+        break
+    except RuntimeError:
+        if attempt < 2:
+            time.sleep(3)
+        else:
+            print('NCBI search failed after 3 attempts')
+            sys.exit(1)
 
 if len(id_list) < 2:
     print(f"Only {len(id_list)} sequences found - exiting")
@@ -60,8 +66,11 @@ N_SEQS=$(grep -c '^>' "/localdisk/home/s2837201/public_html/ICA/data/job_1/seque
 N_SEQS=${N_SEQS:-0}
 $DB_UPDATE "UPDATE jobs SET n_returned=$N_SEQS WHERE job_id=$JOB_ID;"
 update_status fetch Complete "/localdisk/home/s2837201/public_html/ICA/data/job_1/sequences.fasta"
+# Parse sequences to JSON then import via PDO
 python3 $BASE/parse_sequences.py
+php /localdisk/home/s2837201/public_html/ICA/import_sequences.php $JOB_ID $BASE
 
+# ---- STEP 2: Sequence length histogram ----
 update_status histogram Running
 python3 - <<'PYEOF'
 import matplotlib
@@ -91,6 +100,7 @@ plt.savefig(out_png, dpi=150)
 PYEOF
 update_status histogram Complete '/localdisk/home/s2837201/public_html/ICA/data/job_1/histogram.png'
 
+# ---- STEP 3: Multiple sequence alignment (ClustalOmega) ----
 update_status alignment Running
 clustalo -i "$FASTA" -o "$ALIGNED" --outfmt=fasta --force
 if [ $? -eq 0 ]; then
@@ -99,7 +109,7 @@ else
     update_status alignment Failed
 fi
 
-// Plotcon
+# ---- STEP 4: Conservation plot (Plotcon) ----
 update_status conservation Running
 plotcon -sequence "$ALIGNED" -winsize 4 -graph png -goutfile "$BASE/conservation" -auto
 if [ $? -eq 0 ]; then
@@ -107,12 +117,15 @@ if [ $? -eq 0 ]; then
 else
     update_status conservation Failed
 fi
+# ---- STEP 5: PROSITE motif scan (patmatmotifs) ----
 update_status motif Running
 MOTIF_OUT="$BASE/motifs.txt"
 patmatmotifs -sequence "$FASTA" -outfile "$MOTIF_OUT" -auto
 if [ $? -eq 0 ]; then
     update_status motif Complete "$MOTIF_OUT"
+    # Parse motifs to JSON then import via PDO
     python3 $BASE/parse_motifs.py
+    php /localdisk/home/s2837201/public_html/ICA/import_motifs.php $JOB_ID $BASE
 else
     update_status motif Failed
 fi
@@ -127,6 +140,7 @@ if [ $? -eq 0 ]; then
 else
     update_status blast Failed
 fi
+# ---- STEP 7: Predict 3D structure with ESMFold ----
 update_status pymol Running
 python3 - <<'PYEOF'
 from Bio import SeqIO
@@ -135,9 +149,11 @@ import subprocess, sys
 fasta   = '/localdisk/home/s2837201/public_html/ICA/data/job_1/sequences.fasta'
 pdb_out = '/localdisk/home/s2837201/public_html/ICA/data/job_1/structure.pdb'
 
+# Use the first sequence for structure prediction
 rec = next(SeqIO.parse(fasta, 'fasta'))
 seq = str(rec.seq)
 
+# Truncate to 400aa max — ESMFold is slow on very long sequences
 seq = seq[:400]
 
 result = subprocess.run(
@@ -149,6 +165,7 @@ result = subprocess.run(
     capture_output=True, text=True
 )
 
+# Validate output
 with open(pdb_out) as f:
     first_line = f.readline()
 if 'HEADER' in first_line or 'ATOM' in first_line:
@@ -164,4 +181,5 @@ else
     update_status pymol Failed
 fi
 
+# ---- ALL DONE ----
 echo 'JAHbio job 1 complete.'

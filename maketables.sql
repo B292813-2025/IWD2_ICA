@@ -81,4 +81,8 @@ CREATE INDEX idx_motifs_job ON motif_results(job_id);
 
 CREATE INDEX idx_jobs_example ON jobs(is_example);
 
+-- Added this (recently)
+mysql -u s2837201 -p s2837201_ICA -e "ALTER TABLE jobs ADD COLUMN search_type VARCHAR(20) DEFAULT 'All Fields';"
+
 SHOW TABLES;
+

@@ -1,6 +1,5 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<! Uses job_38 as as example >
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +12,6 @@
         .bio-note { background: var(--navy-light); border-left: 3px solid var(--navy); padding: 14px 18px; font-size: 0.92em; color: var(--grey-text); margin-top: 14px; border-radius: 0 3px 3px 0; }
         .badge { display: inline-block; font-size: 0.7em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 10px; border-radius: 3px; margin-left: 10px; vertical-align: middle; }
         .badge-complete { background: #eef7ee; color: #2d7a2d; }
-        .badge-na { background: var(--navy-light); color: var(--grey-text); }
         .ext-links a { font-size: 0.8em; margin-right: 6px; }
         @media (max-width: 600px) { table { font-size: 0.75em; display: block; overflow-x: auto; } td, th { padding: 8px 10px; white-space: nowrap; } }
     </style>
@@ -21,20 +19,15 @@
 <body>
 
 <div class="header">
-    <div class="container">
-        <div class="header-inner">
-            <div>
-                <h1><span>JAH</span>bio</h1>
-                <p>Just Another Homology Tool. Except better&nbsp;;)</p>
-                </div>
-                <img src="images/jahbio.png" alt="Web logo" style="height:100px; opacity:0.9;">
-                </div>
-            </div>
+    <div class="container header-inner">
+        <div>
+            <h1><span>JAH</span>bio</h1>
+            <p>Just Another Homology Tool. Except better&nbsp;;)</p>
         </div>
+        <img src="images/jahbio.png" alt="Web logo" style="height:100px; opacity:0.9;">
     </div>
 </div>
 
-<!-- Nav links to different pages -->
 <div class="menu">
     <div class="container">
         <a href="index.php">Home</a>
@@ -56,74 +49,73 @@
         This page demonstrates all JAHbio features using a pre-processed dataset of
         <strong>50 glucose-6-phosphatase sequences</strong> retrieved from <strong>Aves</strong> (birds).
         All analyses have been run in advance. Use this page to explore what JAHbio produces
-        before running your own search. In this particular instance, no motif sites were found.
+        before running your own search.
     </p>
 
     <hr>
 
-    <!-- Sequence Summary (copy-pasted from results of a run matching these paramters) -->
+    <!-- Sequence Summary -->
     <div class="result-section">
         <h3>Sequence Summary <span class="badge badge-complete">Complete</span></h3>
         <table>
             <tr><th>#</th><th>Accession</th><th>Species</th><th>Length (aa)</th><th>External Links</th></tr>
             <?php
             $seqs = [
-                ['KAN1728004','Threskiornis aethiopicus',342],
-                ['KAN1727817','Threskiornis aethiopicus',358],
-                ['XP_081252512.1','Grus grus',358],
-                ['XP_081251926.1','Grus grus',342],
-                ['XP_081251925.1','Grus grus',354],
-                ['XP_081279448.1','Grus grus',267],
-                ['XP_081279447.1','Grus grus',295],
-                ['XP_081279446.1','Grus grus',295],
-                ['XP_081279445.1','Grus grus',299],
-                ['XP_081279444.1','Grus grus',355],
-                ['XP_080421443.1','Anser brachyrhynchus',358],
-                ['XP_080457172.1','Anser brachyrhynchus',355],
-                ['XP_080489744.1','Psittacula echo',358],
-                ['XP_080489380.1','Psittacula echo',373],
-                ['XP_080478064.1','Psittacula echo',264],
-                ['XP_080478071.1','Psittacula echo',287],
-                ['XP_080478070.1','Psittacula echo',299],
-                ['XP_080478069.1','Psittacula echo',299],
-                ['XP_080478068.1','Psittacula echo',299],
-                ['XP_080478067.1','Psittacula echo',299],
-                ['XP_080478066.1','Psittacula echo',299],
-                ['XP_080478065.1','Psittacula echo',306],
-                ['XP_080478063.1','Psittacula echo',355],
-                ['XP_080226139.1','Falco punctatus',358],
-                ['XP_080226138.1','Falco punctatus',489],
-                ['XP_080225761.1','Falco punctatus',355],
-                ['XP_080225760.1','Falco punctatus',365],
-                ['XP_080255093.1','Falco punctatus',299],
-                ['XP_080255092.1','Falco punctatus',420],
-                ['XP_080216133.1','Nesoenas mayeri',341],
-                ['XP_080215990.1','Nesoenas mayeri',358],
-                ['XP_080202477.1','Nesoenas mayeri',355],
-                ['XP_079403352.1','Tetrao urogallus',358],
-                ['XP_079395065.1','Tetrao urogallus',355],
-                ['XP_079184151.1','Erithacus rubecula',359],
-                ['XP_079167338.1','Erithacus rubecula',231],
-                ['XP_079167337.1','Erithacus rubecula',299],
-                ['XP_079167336.1','Erithacus rubecula',299],
-                ['XP_079167335.1','Erithacus rubecula',310],
-                ['XP_079167334.1','Erithacus rubecula',355],
-                ['XP_079054589.1','Caprimulgus europaeus',299],
-                ['XP_079054588.1','Caprimulgus europaeus',306],
-                ['XP_079054587.1','Caprimulgus europaeus',355],
-                ['XP_079064106.1','Caprimulgus europaeus',342],
-                ['XP_079064077.1','Caprimulgus europaeus',358],
-                ['KAM9657203','Morphnus guianensis',358],
-                ['KAM9656907','Morphnus guianensis',342],
-                ['KAM9656906','Morphnus guianensis',389],
-                ['KAM9629049','Morphnus guianensis',299],
-                ['KAM9629048','Morphnus guianensis',299],
+                ['KAN1727817.1','Threskiornis aethiopicus',358],
+                ['KAJ7421106.1','Willisornis vidua',358],
+                ['KAJ7396366.1','Pitangus sulphuratus',358],
+                ['KAI6072612.1','Aix galericulata',358],
+                ['KAI1230272.1','Lamprotornis superbus',370],
+                ['XP_040473657.1','Falco naumanni',358],
+                ['XP_040392851.1','Cygnus olor',358],
+                ['XP_039553177.1','Passer montanus',358],
+                ['XP_010411101.1','Corvus cornix cornix',358],
+                ['XP_027601652.2','Pipra filicauda',358],
+                ['XP_038019160.1','Motacilla alba alba',358],
+                ['XP_037266979.1','Falco rusticolus',358],
+                ['KAF4787459.1','Turdus rufiventris',358],
+                ['XP_015506695.1','Parus major',358],
+                ['XP_030364364.1','Strigops habroptila',358],
+                ['XP_032566992.1','Chiroxiphia lanceolata',358],
+                ['XP_015741500.1','Coturnix japonica',432],
+                ['KAF1671963.1','Pygoscelis papua',358],
+                ['KAF1663616.1','Aptenodytes patagonicus',358],
+                ['KAF1642821.1','Eudyptes chrysocome',358],
+                ['KAF1627266.1','Eudyptes filholi',358],
+                ['KAF1604860.1','Eudyptes chrysolophus',358],
+                ['KAF1584371.1','Eudyptes moseleyi',358],
+                ['KAF1578265.1','Eudyptes robustus',358],
+                ['KAF1561075.1','Eudyptes pachyrhynchus',358],
+                ['KAF1548696.1','Eudyptula albosignata',358],
+                ['KAF1546409.1','Eudyptula minor',358],
+                ['KAF1524284.1','Eudyptes sclateri',358],
+                ['KAF1488921.1','Eudyptula minor novaehollandiae',358],
+                ['KAF1487788.1','Pygoscelis antarcticus',358],
+                ['KAF1473286.1','Megadyptes antipodes antipodes',358],
+                ['KAF1471003.1','Megadyptes antipodes antipodes',358],
+                ['KAF1464176.1','Megadyptes antipodes antipodes',358],
+                ['KAF1464082.1','Megadyptes antipodes antipodes',358],
+                ['KAF1459431.1','Spheniscus mendiculus',358],
+                ['KAF1440782.1','Spheniscus demersus',358],
+                ['KAF1432837.1','Spheniscus magellanicus',358],
+                ['KAF1404242.1','Spheniscus humboldti',358],
+                ['XP_031990407.1','Corvus moneduloides',358],
+                ['XP_019478895.1','Meleagris gallopavo',220],
+                ['XP_031456423.1','Phasianus colchicus',432],
+                ['XP_005429668.1','Geospiza fortis',413],
+                ['XP_030822190.1','Camarhynchus parvulus',359],
+                ['XP_030321679.1','Calypte anna',358],
+                ['XP_008503927.1','Calypte anna',358],
+                ['XP_008922173.2','Manacus vitellinus',358],
+                ['XP_027751872.1','Empidonax traillii',358],
+                ['XP_027520533.1','Corapipo altera',358],
+                ['XP_027558020.1','Neopelma chrysocephalum',358],
+                ['XP_026720573.1','Athene cunicularia',417],
             ];
             foreach ($seqs as $i => $seq):
                 $acc     = htmlspecialchars($seq[0]);
                 $species = htmlspecialchars($seq[1]);
                 $len     = $seq[2];
-                $acc_url = preg_replace('/\.\d+$/', '', $seq[0]);
             ?>
             <tr>
                 <td><?php echo $i+1; ?></td>
@@ -132,9 +124,9 @@
                 <td><?php echo $len; ?></td>
                 <td class="ext-links">
                     <a href="https://www.ncbi.nlm.nih.gov/protein/<?php echo $acc; ?>" target="_blank">NCBI</a>
-                    <a href="https://www.uniprot.org/uniprot/<?php echo $acc_url; ?>" target="_blank">UniProt</a>
+                    <a href="https://www.uniprot.org/uniprot/<?php echo $acc; ?>" target="_blank">UniProt</a>
                     <a href="https://www.ebi.ac.uk/interpro/search/sequence/?q=<?php echo $acc; ?>" target="_blank">InterPro</a>
-                    <a href="https://alphafold.ebi.ac.uk/entry/<?php echo $acc_url; ?>" target="_blank">AlphaFold</a>
+                    <a href="https://alphafold.ebi.ac.uk/entry/<?php echo $acc; ?>" target="_blank">AlphaFold</a>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -148,10 +140,10 @@
 
     <hr>
 
-    <!-- HISTOGRAM -->
+    <!-- Histogram -->
     <div class="result-section">
         <h3>Sequence Length Distribution <span class="badge badge-complete">Complete</span></h3>
-        <img src="data/job_38/histogram.png" alt="Sequence length histogram" class="result-img">
+        <img src="data/job_1/histogram.png" alt="Sequence length histogram" class="result-img">
         <div class="bio-note">
             This histogram shows the distribution of sequence lengths across all 50 retrieved
             glucose-6-phosphatase sequences. The dominant peak around 355–360 aa corresponds
@@ -163,10 +155,10 @@
 
     <hr>
 
-    <!-- CONSERVATION -->
+    <!-- Conservation Plot -->
     <div class="result-section">
         <h3>Conservation Plot <span class="badge badge-complete">Complete</span></h3>
-        <img src="data/job_38/conservation.1.png" alt="Conservation plot" class="result-img">
+        <img src="data/job_1/conservation.1.png" alt="Conservation plot" class="result-img">
         <div class="bio-note">
             This conservation plot was generated by aligning all sequences using ClustalOmega
             and passing the alignment through Plotcon. Higher peaks indicate positions that are
@@ -175,22 +167,22 @@
             variable surface-exposed domains.
         </div>
         <p style="margin-top:12px;">
-            <a href="data/job_38/aligned.fasta" download>Download aligned FASTA</a>
+            <a href="data/job_1/aligned.fasta" download>Download aligned FASTA</a>
         </p>
     </div>
 
     <hr>
 
-    <!-- MOTIFS -->
+    <!-- motifs -->
     <div class="result-section">
         <h3>PROSITE Motif Scan <span class="badge badge-complete">Complete</span></h3>
         <div class="infobox">
-            No PROSITE motifs were detected in the retrieved sequences. This is a valid result —
+            No PROSITE motifs were detected in the retrieved sequences. This is a valid result,
             not all proteins contain PROSITE-catalogued motifs, particularly if their functional
-            signatures are not yet represented in the PROSITE database. See what results this yields for a different search :)
+            signatures are not yet represented in the PROSITE database.
         </div>
         <p style="margin-top:12px;">
-            <a href="data/job_38/motifs.txt" target="_blank">View raw Patmatmotifs output</a>
+            <a href="data/job_1/motifs.txt" target="_blank">View raw Patmatmotifs output</a>
         </p>
     </div>
 
@@ -200,13 +192,13 @@
     <div class="result-section">
         <h3>BLAST Similarity Search <span class="badge badge-complete">Complete</span></h3>
         <?php
-        $blast_file = '/home/s2837201/public_html/ICA/data/job_38/blast.txt';
+        $blast_file = '/home/s2837201/public_html/ICA/data/job_1/blast.txt';
         $blast_lines = file($blast_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         $rows = [];
         foreach ($blast_lines as $line) {
             if (strpos($line, '#') === 0) continue;
             $cols = preg_split('/\t/', $line);
-            if (count($cols) >= 10) $rows[] = $cols;
+            if (count($cols) >= 12) $rows[] = $cols;
             if (count($rows) >= 20) break;
         }
         ?>
@@ -231,13 +223,13 @@
             lower identity scores may indicate paralogues or more distantly related family members.
         </div>
         <p style="margin-top:12px;">
-            <a href="data/job_38/blast.txt" download>Download full BLAST output</a>
+            <a href="data/job_1/blast.txt" download>Download full BLAST output</a>
         </p>
     </div>
 
     <hr>
 
-    <!-- 3D STRUCTURE PREDICTION -->
+    <!-- 3D prediction -->
     <div class="result-section">
         <h3>3D Structure Visualisation <span class="badge badge-complete">Complete</span></h3>
         <div id="mol-viewer" style="width:100%; height:500px; border:1px solid var(--grey-border); border-radius:4px; margin-top:12px; background:#1a1a2e; position:relative;"></div>
@@ -247,7 +239,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             var viewer = $3Dmol.createViewer("mol-viewer", { backgroundColor: "#1a1a2e" });
             jQuery.ajax({
-                url: "/~s2837201/ICA/data/job_38/structure.pdb",
+                url: "/~s2837201/ICA/data/job_1/structure.pdb",
                 success: function(pdbData) {
                     viewer.addModel(pdbData, "pdb");
                     viewer.setStyle({}, { cartoon: { colorscheme: "ssJmol" } });
@@ -264,23 +256,23 @@
             and pan by right-click dragging.
         </div>
         <p style="margin-top:12px;">
-            <a href="data/job_38/structure.pdb" download>Download PDB file</a>
+            <a href="data/job_1/structure.pdb" download>Download PDB file</a>
         </p>
     </div>
 
     <hr>
 
-    <!-- DOWNLOAD LINKS -->
+    <!-- Downloadable files -->
     <div class="result-section">
         <h3>Downloads</h3>
         <p>Raw output files for this example dataset:</p>
         <ul style="margin-left:24px; line-height:2.2;">
-            <li><a href="data/job_38/sequences.fasta" download>sequences.fasta</a> - All 50 retrieved sequences</li>
-            <li><a href="data/job_38/aligned.fasta" download>aligned.fasta</a> - ClustalOmega alignment</li>
-            <li><a href="data/job_38/motifs.txt" download>motifs.txt</a> - Patmatmotifs output</li>
-            <li><a href="data/job_38/blast.txt" download>blast.txt</a> - BLAST output</li>
-            <li><a href="data/job_38/structure.pdb" download>structure.pdb</a> - ESMFold predicted 3D structure</li>
-            <li><a href="data/job_38/log.txt" target="_blank">log.txt</a> - Analysis log</li>
+            <li><a href="data/job_1/sequences.fasta" download>sequences.fasta</a> - All 50 retrieved sequences</li>
+            <li><a href="data/job_1/aligned.fasta" download>aligned.fasta</a> - ClustalOmega alignment</li>
+            <li><a href="data/job_1/motifs.txt" download>motifs.txt</a> - Patmatmotifs output</li>
+            <li><a href="data/job_1/blast.txt" download>blast.txt</a> - BLAST output</li>
+            <li><a href="data/job_1/structure.pdb" download>structure.pdb</a> - ESMFold predicted 3D structure</li>
+            <li><a href="data/job_1/log.txt" target="_blank">log.txt</a> - Analysis log</li>
         </ul>
     </div>
 

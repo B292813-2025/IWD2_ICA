@@ -1,15 +1,20 @@
-import sys, subprocess, re as _re
-from Bio import Entrez
+# parse_sequences.py
+# Parses the FASTA file for this job and writes sequences.json
+# to the job directory. The actual DB insertion is handled by
+# import_sequences.php via PDO, to comply with the PDO requirement.
+
+import json
+import re as _re
+from Bio import Entrez, SeqIO
 
 job_id   = 1
 fasta    = '/localdisk/home/s2837201/public_html/ICA/data/job_1/sequences.fasta'
-username = 's2837201'
-password = 'Elijah271202?'
-database = 's2837201_ICA'
+out_json = '/localdisk/home/s2837201/public_html/ICA/data/job_1/sequences.json'
 
 Entrez.email   = 's2837201@ed.ac.uk'
 Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'
 
+# Parse FASTA file into records
 records = []
 with open(fasta) as f:
     header, seq = None, []
@@ -25,48 +30,64 @@ with open(fasta) as f:
     if header:
         records.append((header, ''.join(seq)))
 
-for header, seq in records:
-    parts = header.split(' ', 1)
-    acc   = parts[0]
-    desc  = parts[1] if len(parts) > 1 else ''
-
-    # Clean SwissProt format: sp|P35575|G6PC1_MOUSE -> P35575
+def clean_acc(raw):
+    """Clean accession from various NCBI formats into a simple ID."""
+    acc = raw.split(' ', 1)[0]
     if '|' in acc:
-        acc = acc.split('|')[1]
-
-    # Remove version suffix but keep XP_/NP_ style accessions intact
+        parts = acc.split('|')
+        if parts[0] == 'pdb' and len(parts) >= 3:
+            acc = parts[1] + '_' + parts[2]  # e.g. 9PWQ_A
+        else:
+            acc = parts[1]
     if '.' in acc and '_' not in acc:
-        acc = acc.split('.')[0]
+        base = acc.split('.')[0]
+        # Only strip version from UniProt-style accessions (e.g. P35575.2)
+        # GenBank/RefSeq accessions like KAI1230272.1 should keep their version
+        import re as _re2
+        if _re2.match(r'^[A-Z][0-9][A-Z0-9]{3}[0-9]$', base):
+            acc = base
+    return acc
 
-    # Extract species: try OS= field (SwissProt) then [brackets] (RefSeq)
-    os_match = _re.search(r'OS=(.+?)(?:\s+OX=|\s+GN=|\s+PE=|\s*$)', desc)
-    if os_match:
-        species = os_match.group(1).strip()
-    elif '[' in desc and desc.endswith(']'):
-        species = desc[desc.rfind('[')+1:-1]
-    else:
-        # Fall back to esummary + taxonomy lookup
-        try:
-            handle = Entrez.esummary(db='protein', id=acc)
-            summary = Entrez.read(handle)
-            handle.close()
-            tax_id = str(summary[0].get('TaxId', ''))
-            if tax_id:
-                tax_handle = Entrez.efetch(db='taxonomy', id=tax_id, rettype='xml')
-                tax_record = Entrez.read(tax_handle)
-                tax_handle.close()
-                species = tax_record[0].get('ScientificName', '')
-            else:
-                species = ''
-        except:
-            species = ''
+accs = [clean_acc(h) for h, s in records]
 
-    length    = len(seq)
-    acc_s     = acc.replace("'", "\\'")
-    desc_s    = desc.replace("'", "\\'")
-    species_s = species.replace("'", "\\'")
+# Batch fetch organism names via GenBank format
+organism_map = {}
+try:
+    handle  = Entrez.efetch(db='protein', id=','.join(accs), rettype='gb', retmode='text')
+    gb_recs = list(SeqIO.parse(handle, 'genbank'))
+    handle.close()
+    for rec in gb_recs:
+        org     = rec.annotations.get('organism', '')
+        acc_key = rec.id.split('.')[0] if '.' in rec.id and '_' not in rec.id else rec.id
+        organism_map[acc_key] = org
+        organism_map[rec.id] = org
+except Exception as e:
+    print(f'Warning: organism lookup failed: {e}')
 
-    sql = f"INSERT INTO sequences (job_id, accession, description, species, seq_length) VALUES ({job_id}, '{acc_s}', '{desc_s}', '{species_s}', {length});"
-    subprocess.run(['mysql', '-u', username, '-p'+password, database, '-e', sql])
+# Build list of sequence dicts to write to JSON
+output = []
+for (header, seq), acc in zip(records, accs):
+    parts   = header.split(' ', 1)
+    desc    = parts[1] if len(parts) > 1 else ''
 
-print(f'Inserted {len(records)} sequences.')
+    # Get species from GenBank lookup, fall back to header parsing
+    species = organism_map.get(acc, '')
+    if not species:
+        os_match = _re.search(r'OS=(.+?)(?:\s+OX=|\s+GN=|\s+PE=|\s*$)', desc)
+        if os_match:
+            species = os_match.group(1).strip()
+        elif '[' in desc and desc.endswith(']'):
+            species = desc[desc.rfind('[')+1:-1]
+
+    output.append({
+        'accession': acc,
+        'description': desc,
+        'species': species,
+        'seq_length': len(seq)
+    })
+
+# Write to JSON — DB insertion handled by import_sequences.php via PDO
+with open(out_json, 'w') as f:
+    json.dump(output, f)
+
+print(f'Wrote {len(output)} sequences to sequences.json.')
