@@ -17,7 +17,7 @@ $session_id = session_id();
 // Query mySQL
 $stmt = $conn->prepare('
     SELECT job_id, protein, taxon, max_seqs, n_returned, created_at,
-           do_align, do_motif, do_blast, do_pymol
+           do_align, do_motif, do_blast, do_pymol, search_type
     FROM jobs
     WHERE session_id = ?
     ORDER BY created_at DESC
@@ -204,6 +204,11 @@ if (!empty($jobs)) {
                             <?php echo $label; ?>
                         </span>
                         <?php endforeach; ?>
+                    <!-- Shows badge for search type -->
+                        <span class="badge-small" style="background:#f0f4ff; color:#2d4a8a;">
+                         <?php echo ($job['search_type'] ?? 'All Fields') === 'protein' ? 'Strict search' : 'Broad search'; ?>
+                        </span>
+
                     </div>
                 </div>
 

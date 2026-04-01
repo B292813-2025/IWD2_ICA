@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed  1 Apr 2026 13:18:47
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_3/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_3/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_3/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: T229B_CHICK     from: 1   to: 167
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

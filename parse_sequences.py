@@ -1,7 +1,5 @@
-# parse_sequences.py
-# Parses the FASTA file for this job and writes sequences.json
-# to the job directory. The actual DB insertion is handled by
-# import_sequences.php via PDO, to comply with the PDO requirement.
+# Parses the FASTA file for this job and writes sequences.json to the job directory. The actual DB insertion is handled by
+# import_sequences.php via PDO
 
 import json
 import re as _re
@@ -41,8 +39,8 @@ def clean_acc(raw):
             acc = parts[1]
     if '.' in acc and '_' not in acc:
         base = acc.split('.')[0]
-        # Only strip version from UniProt-style accessions (e.g. P35575.2)
-        # GenBank/RefSeq accessions like KAI1230272.1 should keep their version
+        # Only strip version from UniProt-style accessions (P35575.2)
+        # GenBank/RefSeq accessions should keep their version
         import re as _re2
         if _re2.match(r'^[A-Z][0-9][A-Z0-9]{3}[0-9]$', base):
             acc = base

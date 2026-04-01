@@ -1,0 +1,40 @@
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Fetched 20 sequences.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+/usr/lib/python3/dist-packages/Bio/SeqFeature.py:1015: BiopythonParserWarning: Dropping bond qualifier in feature location
+  warnings.warn(
+Wrote 20 sequences to sequences.json.
+PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'description' at row 1 in /localdisk/home/s2837201/public_html/ICA/import_sequences.php:47
+Stack trace:
+#0 /localdisk/home/s2837201/public_html/ICA/import_sequences.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in /localdisk/home/s2837201/public_html/ICA/import_sequences.php on line 47
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_4/conservation.1.png
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Wrote 0 motif hits to motifs.json.
+No motif hits to insert.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+
+
+Building a new DB, current time: 04/01/2026 13:34:04
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_4/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_4/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 20 sequences in 0.168038 seconds.
+
+
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Structure predicted for pdb|9VJL|B
+mysql: [Warning] Using a password on the command line interface can be insecure.
+JAHbio job 4 complete.

@@ -7,6 +7,7 @@
     <title>Example Dataset — JAHbio</title>
     <link rel="stylesheet" href="style2.css">
     <style>
+         <!-- Style for unique-ish elements - Claude helped refine this -->
         .result-section { margin-bottom: 36px; }
         .result-img { max-width: 100%; border: 1px solid var(--grey-border); border-radius: 4px; margin-top: 12px; }
         .bio-note { background: var(--navy-light); border-left: 3px solid var(--navy); padding: 14px 18px; font-size: 0.92em; color: var(--grey-text); margin-top: 14px; border-radius: 0 3px 3px 0; }
@@ -47,14 +48,14 @@
     <h2>Example: Glucose-6-phosphatase in Aves</h2>
     <p>
         This page demonstrates all JAHbio features using a pre-processed dataset of
-        <strong>50 glucose-6-phosphatase sequences</strong> retrieved from <strong>Aves</strong> (birds).
+        <strong>50 glucose-6-phosphatase sequences</strong> retrieved from <strong>Aves</strong> (birds) under a strict search.
         All analyses have been run in advance. Use this page to explore what JAHbio produces
         before running your own search.
     </p>
 
     <hr>
 
-    <!-- Sequence Summary -->
+    <!-- Sequence Summary - got this info from the log.txt file produced -->
     <div class="result-section">
         <h3>Sequence Summary <span class="badge badge-complete">Complete</span></h3>
         <table>
@@ -140,7 +141,7 @@
 
     <hr>
 
-    <!-- Histogram -->
+    <!-- Histogram - image stored server-side-->
     <div class="result-section">
         <h3>Sequence Length Distribution <span class="badge badge-complete">Complete</span></h3>
         <img src="data/job_1/histogram.png" alt="Sequence length histogram" class="result-img">
@@ -155,7 +156,7 @@
 
     <hr>
 
-    <!-- Conservation Plot -->
+    <!-- Conservation Plot -plot stored server-side-->
     <div class="result-section">
         <h3>Conservation Plot <span class="badge badge-complete">Complete</span></h3>
         <img src="data/job_1/conservation.1.png" alt="Conservation plot" class="result-img">
@@ -173,9 +174,10 @@
 
     <hr>
 
-    <!-- motifs -->
+    <!-- motifs - from .txt file stored server-side-->
     <div class="result-section">
         <h3>PROSITE Motif Scan <span class="badge badge-complete">Complete</span></h3>
+        <br>
         <div class="infobox">
             No PROSITE motifs were detected in the retrieved sequences. This is a valid result,
             not all proteins contain PROSITE-catalogued motifs, particularly if their functional
@@ -188,7 +190,7 @@
 
     <hr>
 
-    <!-- BLAST -->
+    <!-- BLAST - from server-side file --> formatted as a table-->
     <div class="result-section">
         <h3>BLAST Similarity Search <span class="badge badge-complete">Complete</span></h3>
         <?php
@@ -229,7 +231,7 @@
 
     <hr>
 
-    <!-- 3D prediction -->
+    <!-- 3D prediction - .pdb file server side and using the tools below to visualise it - colour also slightly different to match the logo (red and white)-->
     <div class="result-section">
         <h3>3D Structure Visualisation <span class="badge badge-complete">Complete</span></h3>
         <div id="mol-viewer" style="width:100%; height:500px; border:1px solid var(--grey-border); border-radius:4px; margin-top:12px; background:#1a1a2e; position:relative;"></div>

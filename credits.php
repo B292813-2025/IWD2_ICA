@@ -57,9 +57,8 @@ session_start();
         <strong><a href="https://claude.ai" target="_blank">Anthropic Claude</a></strong>
         (Claude Sonnet 4.5) was the primary AI assistant used throughout development.
         It was used to:</br>
-        1. &nbsp Generate the initial CSS stylesheet, which was subsequently modified by hand</br>
-        2. &nbsp Debug (and in some cases improve) the PHP pipeline orchestration, per-job shell script generation, and Python
-        parser scripts</br> 
+        1. &nbsp Generate the initial CSS stylesheet and certian local style additions, which was subsequently modified by hand</br>
+        2. &nbsp Debug (and in some cases improve) the PHP pipeline orchestration, per-job shell script generation, and PDO handling</br> 
         3. &nbsp Implement the live progress polling system</br>
         4. &nbsp Help build the results page (linking to specific files/scripts and fixing the displays)</br> 
         5. &nbsp Integrate the animated JavaScript used for the  404 error page as well as making

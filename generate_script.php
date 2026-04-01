@@ -84,11 +84,11 @@ PYEOF;
     $s .= "N_SEQS=\${N_SEQS:-0}\n";
     $s .= "\$DB_UPDATE \"UPDATE jobs SET n_returned=\$N_SEQS WHERE job_id=\$JOB_ID;\"\n";
     $s .= "update_status fetch Complete \"{$base_dir}/sequences.fasta\"\n";
-    $s .= "# Parse sequences to JSON then import via PDO\n";
+    $s .= "# Parse the sequences to JSON then import via PDO\n";
     $s .= "python3 \$BASE/parse_sequences.py\n";
     $s .= "php /localdisk/home/s2837201/public_html/ICA/import_sequences.php \$JOB_ID \$BASE\n\n";
 
-    // 2: Histogram 
+    // 2: Histogram - plot with matplotlib.pyplot - bins set to auto (different # retrieved each time)
     $s .= "update_status histogram Running\n";
     $s .= "python3 - <<'PYEOF'\n";
     $s .= "import matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\n\n";
@@ -116,7 +116,7 @@ PYEOF;
     $s .= "\nPYEOF\n";
     $s .= "update_status histogram Complete '{$base_dir}/histogram.png'\n\n";
 
-    // 3+4: Alignment + Conservation 
+    // 3+4: Alignment + Conservation (clustalo+plotcon)
     if ($do_align) {
         $s .= <<<'BASH'
 update_status alignment Running
@@ -138,7 +138,7 @@ fi
 BASH;
     }
 
-    // 5: PROSITE motif scan 
+    // 5: PROSITE motif scan (patmatmotifs)
     if ($do_motif) {
         $s .= <<<'BASH'
 update_status motif Running
@@ -186,7 +186,7 @@ BASH;
 rec = next(SeqIO.parse(fasta, 'fasta'))
 seq = str(rec.seq)
 
-# Truncate to 400aa max — ESMFold is slow on very long sequences
+# Truncate to 400aa max — ESMFold is slow on very long sequences - better user experience
 seq = seq[:400]
 
 result = subprocess.run(

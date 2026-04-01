@@ -1,0 +1,46 @@
+# BLASTP 2.17.0+
+# Query: NP_653356.1 tribbles homolog 3 [Rattus norvegicus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_5/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+NP_653356.1	BAA77582.1	100.000	349	0	0	1	349	1	349	0.0	709
+NP_653356.1	NP_653356.1	100.000	349	0	0	1	349	1	349	0.0	709
+NP_653356.1	GAB1285789.1	28.571	91	51	5	221	300	415	502	0.82	19.2
+NP_653356.1	GAB1285789.1	31.373	51	30	2	53	98	241	291	3.5	17.3
+NP_653356.1	GAB1285789.1	25.000	36	26	1	122	157	874	908	7.2	16.5
+NP_653356.1	GAB1295215.1	33.333	15	10	0	264	278	1	15	5.9	16.5
+# BLASTP 2.17.0+
+# Query: GAB1285789.1 Kinase [Apodemus speciosus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_5/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+GAB1285789.1	GAB1285789.1	100.000	944	0	0	1	944	1	944	0.0	1924
+GAB1285789.1	GAB1295215.1	23.881	201	109	10	697	888	42	207	2.95e-07	41.6
+GAB1285789.1	GAB1295215.1	34.783	23	15	0	580	602	18	40	6.0	18.1
+GAB1285789.1	BAA77582.1	28.571	91	51	5	415	502	221	300	2.5	19.2
+GAB1285789.1	BAA77582.1	31.373	51	30	2	241	291	53	98	9.7	17.3
+GAB1285789.1	NP_653356.1	28.571	91	51	5	415	502	221	300	2.5	19.2
+GAB1285789.1	NP_653356.1	31.373	51	30	2	241	291	53	98	9.7	17.3
+# BLASTP 2.17.0+
+# Query: GAB1295215.1 Kinase [Apodemus speciosus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_5/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+GAB1295215.1	GAB1295215.1	100.000	358	0	0	1	358	1	358	0.0	749
+GAB1295215.1	GAB1285789.1	23.881	201	109	10	42	207	697	888	1.07e-07	41.6
+GAB1295215.1	GAB1285789.1	34.146	41	23	2	195	233	440	478	3.7	17.3
+GAB1295215.1	GAB1285789.1	50.000	14	7	0	18	31	580	593	5.4	16.9
+GAB1295215.1	BAA77582.1	33.333	15	10	0	1	15	264	278	6.1	16.5
+GAB1295215.1	NP_653356.1	33.333	15	10	0	1	15	264	278	6.1	16.5
+# BLASTP 2.17.0+
+# Query: BAA77582.1 kinase [Rattus sp.]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_5/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+BAA77582.1	BAA77582.1	100.000	349	0	0	1	349	1	349	0.0	709
+BAA77582.1	NP_653356.1	100.000	349	0	0	1	349	1	349	0.0	709
+BAA77582.1	GAB1285789.1	28.571	91	51	5	221	300	415	502	0.82	19.2
+BAA77582.1	GAB1285789.1	31.373	51	30	2	53	98	241	291	3.5	17.3
+BAA77582.1	GAB1285789.1	25.000	36	26	1	122	157	874	908	7.2	16.5
+BAA77582.1	GAB1295215.1	33.333	15	10	0	264	278	1	15	5.9	16.5
+# BLAST processed 4 queries

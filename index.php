@@ -138,44 +138,91 @@ Search type     : <select name="search_type" id="search_type" style="font-family
 </div>
 
 <script>
+// Attach a click event listener to the search button
 document.getElementById('search-btn').addEventListener('click', function() {
+
+    // Get user input values and remove any extra whitespace
     var protein    = document.getElementById('protein').value.trim();
     var taxon      = document.getElementById('taxon').value.trim();
     var searchType = document.getElementById('search_type').value;
+
+    // Get references to UI elements for displaying messages
     var errorDiv   = document.getElementById('search-error');
     var checkDiv   = document.getElementById('search-checking');
 
+    // Validate that both input fields are filled in
     if (!protein || !taxon) {
+        // Show an error message if either field is empty
         errorDiv.textContent = 'Please enter both a protein family and a taxonomic group.';
         errorDiv.style.display = 'block';
-        return;
+        return; // Stop further execution
     }
 
+    // Hide any previous error message
     errorDiv.style.display = 'none';
+
+    // Show a "checking" message or loading indicator
     checkDiv.style.display = 'block';
+
+    // Disable the search button to prevent multiple submissions
     document.getElementById('search-btn').disabled = true;
 
-    var query = encodeURIComponent(protein + '[' + searchType + '] AND ' + taxon + '[organism]');
-    var url   = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=' + query + '&retmax=0&retmode=json&api_key=bc81dc27024bce567d64cb201a28e9ad8508';
+    // Build the NCBI search query string
+    // Format: protein[searchType] AND taxon[organism]
+    var query = encodeURIComponent(
+        protein + '[' + searchType + '] AND ' + taxon + '[organism]'
+    );
 
+    // Construct the API request URL for NCBI E-utilities
+    // retmax=0 means we only retrieve the count, not actual records
+    var url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
+            + '?db=protein'
+            + '&term=' + query
+            + '&retmax=0'
+            + '&retmode=json'
+            + '&api_key=bc81dc27024bce567d64cb201a28e9ad8508';
+
+    // Send the request to the NCBI API
     fetch(url)
+
+        // Convert the response to JSON format
         .then(r => r.json())
+
+        // Process the returned data
         .then(data => {
+
+            // Hide the loading indicator and re-enable the button
             checkDiv.style.display = 'none';
             document.getElementById('search-btn').disabled = false;
+
+            // Extract the number of matching sequences from the response
             var count = parseInt(data.esearchresult.count);
+
+            // If no sequences found
             if (count === 0) {
-                errorDiv.textContent = 'No sequences found for "' + protein + '" in "' + taxon + '" on NCBI. Check your spelling or try a broader search term.';
+                errorDiv.textContent =
+                    'No sequences found for "' + protein +
+                    '" in "' + taxon +
+                    '" on NCBI. Check your spelling or try a broader search term.';
                 errorDiv.style.display = 'block';
+
+            // If less than 2 sequences found
             } else if (count < 2) {
-                errorDiv.textContent = 'Only ' + count + ' sequence found — at least 2 are needed. Try broadening your search.';
+                errorDiv.textContent =
+                    'Only ' + count +
+                    ' sequence found — at least 2 are needed. Try broadening your search.';
                 errorDiv.style.display = 'block';
+
+            // Enough sequences found - proceed with form submission
             } else {
                 document.getElementById('search-form').submit();
             }
         })
+
+        // Handle errors (network issues or API failure)
         .catch(function() {
-            // If NCBI check fails, submit anyway
+
+            // If the NCBI check fails, allow the form to submit anyway
             checkDiv.style.display = 'none';
             document.getElementById('search-btn').disabled = false;
             document.getElementById('search-form').submit();

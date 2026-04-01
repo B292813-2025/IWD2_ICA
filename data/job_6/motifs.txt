@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed  1 Apr 2026 14:01:37
+# Commandline: patmatmotifs
+#    -sequence /localdisk/home/s2837201/public_html/ICA/data/job_6/sequences.fasta
+#    -outfile /localdisk/home/s2837201/public_html/ICA/data/job_6/motifs.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /localdisk/home/s2837201/public_html/ICA/data/job_6/motifs.txt
+########################################
+
+#=======================================
+#
+# Sequence: 9VJLB     from: 1   to: 16
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

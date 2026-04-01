@@ -1,0 +1,751 @@
+# BLASTP 2.17.0+
+# Query: YDP00925.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDP00925.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDN94102.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN94102.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDN93963.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN93963.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDN93780.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN93780.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YCQ37814.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YCQ37814.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDN31030.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN31030.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDN31017.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN31017.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDL31217.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDL31217.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31217.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDL31204.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDL31204.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDL31204.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDJ22084.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDJ22084.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22084.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDJ22060.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDJ22060.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDJ22060.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH80626.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens neanderthalensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH80626.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80626.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH80613.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens neanderthalensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH80613.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80613.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH80600.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens neanderthalensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH80600.1	YDH80600.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80600.1	YDB19150.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDB19163.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDB19176.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDF59128.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDH34698.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDH34711.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDH34724.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDH34737.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH80600.1	YDH34750.1	99.805	513	1	0	1	513	1	513	0.0	1025
+# BLASTP 2.17.0+
+# Query: YDH80587.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens neanderthalensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH80587.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH80587.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34906.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34906.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34906.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH70000.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH70000.1	YDH70000.1	100.000	513	0	0	1	513	1	513	0.0	1027
+YDH70000.1	YDB19150.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDB19163.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDB19176.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDF59128.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDH34698.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDH34711.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDH34724.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDH34737.1	99.805	513	1	0	1	513	1	513	0.0	1025
+YDH70000.1	YDH34750.1	99.805	513	1	0	1	513	1	513	0.0	1025
+# BLASTP 2.17.0+
+# Query: XZS37869.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37869.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37869.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37856.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37856.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37856.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37843.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37843.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37843.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37830.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37830.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37830.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37817.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37817.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37817.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37804.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37804.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37804.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37791.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37791.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37791.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37778.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37778.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37778.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37765.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37765.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37765.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37752.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37752.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37752.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37739.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37739.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37739.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XZS37726.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XZS37726.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+XZS37726.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34893.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34893.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34893.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34880.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34880.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34880.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34867.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34867.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34867.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34854.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34854.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34854.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34841.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34841.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34841.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34828.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34828.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34828.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34815.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34815.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34815.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34802.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34802.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34802.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34789.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34789.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34789.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34776.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34776.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34776.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34763.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34763.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34763.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34750.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34750.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34750.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34737.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34737.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34737.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34724.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34724.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34724.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34711.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34711.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34711.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDH34698.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDH34698.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDH34698.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDF59128.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDF59128.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDF59128.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: XPU94604.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XPU94604.1	XPU94604.1	100.000	293	0	0	1	293	1	293	0.0	578
+XPU94604.1	YDH70000.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDB19150.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDB19163.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDB19176.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDF59128.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDH34698.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDH34711.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDH34724.1	99.659	293	1	0	1	293	22	314	0.0	577
+XPU94604.1	YDH34737.1	99.659	293	1	0	1	293	22	314	0.0	577
+# BLASTP 2.17.0+
+# Query: YDB19176.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDB19176.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19176.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDB19163.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDB19163.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19163.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLASTP 2.17.0+
+# Query: YDB19150.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_2/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDB19150.1	YDB19150.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDB19163.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDB19176.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDF59128.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDH34698.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDH34711.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDH34724.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDH34737.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDH34750.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDB19150.1	YDH34763.1	100.000	513	0	0	1	513	1	513	0.0	1026
+# BLAST processed 50 queries
