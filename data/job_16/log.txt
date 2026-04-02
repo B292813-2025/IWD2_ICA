@@ -1,0 +1,13 @@
+Fetched 50 sequences.
+Wrote 50 sequences to sequences.json.
+Inserted 50 sequences into DB.
+Motif scan complete.
+Wrote 236 motif hits to motifs.json.
+Warning: accession Q2QLH0.1 not found in sequences table
+Warning: accession Q2QLH0.1 not found in sequences table
+Warning: accession Q2QLH0.1 not found in sequences table
+Warning: accession Q2QLH0.1 not found in sequences table
+Warning: accession Q2QLH0.1 not found in sequences table
+Inserted 231 motif hits into DB.
+Structure predicted for KAN4038565.1
+JAHbio job 16 complete.

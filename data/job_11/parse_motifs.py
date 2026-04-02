@@ -1,12 +1,12 @@
-#parses the Patmatmotifs output for this job and writes motifs.json to the job directory 
-# The actual DB insertion is handled by import_motifs.php via PDO to comply with the PDO requirement - was initially python
+# parses the Patmatmotifs output for this job and writes motifs.json to the job directory. 
+# the actual DB insertion is handled by import_motifs.php via PDO
 
 import json
 import re
 
-job_id     = JOB_ID
-motif_file = 'BASE_DIR/motifs.txt'
-out_json   = 'BASE_DIR/motifs.json'
+job_id     = 11
+motif_file = '/localdisk/home/s2837201/public_html/ICA/data/job_11/motifs.txt'
+out_json   = '/localdisk/home/s2837201/public_html/ICA/data/job_11/motifs.json'
 
 output = []
 
@@ -17,28 +17,31 @@ with open(motif_file) as f:
     for line in f:
         line = line.rstrip()
 
-        # Match sequence header line e.g. "# Sequence: KAJ7421106.1"
+        # match sequence header line ("# Sequence: KAJ7421106.1")
         m = re.match(r'^# Sequence: (\S+)', line)
         if m:
             current_acc = m.group(1)
+            # strip to match the accessions in sequences table
+            if '.' in current_acc and '_' not in current_acc:
+                current_acc = current_acc.split('.')[0]
             motif_name = start = end = None
 
-        # Match start position
+        # match start position
         m = re.match(r'^Start = position (\d+)', line)
         if m:
             start = int(m.group(1))
 
-        # Match end position
+        # match end position
         m = re.match(r'^End = position (\d+)', line)
         if m:
             end = int(m.group(1))
 
-        # Match motif name — appears after Start and End in patmatmotifs output
+        # match motif name (appears after start and end in patmatmotifs output)
         m = re.match(r'^Motif = (\S+)', line)
         if m:
             motif_name = m.group(1)
 
-        # Once all three fields collected, record the hit
+        # Once all three are collected - record 
         if motif_name and start and end and current_acc:
             output.append({
                 'accession':  current_acc,
@@ -49,7 +52,7 @@ with open(motif_file) as f:
             })
             motif_name = start = end = None
 
-# Write to JSON — DB insertion handled by import_motifs.php via PDO
+# write to JSON —-> DB insertion handled by import_motifs.php via PDO
 with open(out_json, 'w') as f:
     json.dump(output, f)
 

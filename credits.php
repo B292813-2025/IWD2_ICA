@@ -67,7 +67,7 @@ session_start();
 
     <p>
         <strong><a href="https://chatgpt.com" target="_blank">OpenAI ChatGPT</a></strong>
-        (GPT-4o) was used for: generating the JAHbio logo image displayed in the top right of
+        (GPT-4o) was used for generating the JAHbio logo image displayed in the top right of
         every page using DALL-E image generation and resolving specific syntax errors encountered during development. It was also used
         to help refine the text used in the "About", "Help" and "Credits" page.
     </p>

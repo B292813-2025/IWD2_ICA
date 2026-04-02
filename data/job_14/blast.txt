@@ -1,0 +1,198 @@
+# BLASTP 2.17.0+
+# Query: pdb|9VJL|B Chain B, Receptor-interacting serine/threonine-protein kinase 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+pdb|9VJL|B	9VJL_B	100.000	16	0	0	1	16	1	16	2.57e-07	31.2
+# BLASTP 2.17.0+
+# Query: pdb|9VJL|A Chain A, Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+pdb|9VJL|A	9VJL_A	100.000	106	0	0	1	106	1	106	3.14e-81	224
+pdb|9VJL|A	Q70KF4.2	21.739	23	18	0	40	62	1976	1998	4.9	16.9
+pdb|9VJL|A	Q70KF4.2	27.451	51	33	2	60	106	2971	3021	8.4	16.2
+# BLASTP 2.17.0+
+# Query: sp|Q9ESU6.2|BRD4_MOUSE RecName: Full=Bromodomain-containing protein 4; AltName: Full=Mitotic chromosome-associated protein; Short=MCAP
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+sp|Q9ESU6.2|BRD4_MOUSE	Q9ESU6.2	100.000	1400	0	0	1	1400	1	1400	0.0	2764
+sp|Q9ESU6.2|BRD4_MOUSE	Q70KF4.2	25.862	116	65	5	515	628	2649	2745	1.3	22.7
+sp|Q9ESU6.2|BRD4_MOUSE	Q70KF4.2	23.881	67	40	3	1032	1094	1059	1118	2.8	21.9
+# BLASTP 2.17.0+
+# Query: sp|Q70KF4.2|CMYA5_MOUSE RecName: Full=Cardiomyopathy-associated protein 5; AltName: Full=Heart and skeletal muscle-specific and sprouty domain-containing; AltName: Full=Myospryn; AltName: Full=Stretch-response protein 553; AltName: Full=Stretch-responsive fibronectin protein type 3; AltName: Full=TRIM-like protein
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+sp|Q70KF4.2|CMYA5_MOUSE	Q70KF4.2	100.000	3739	0	0	1	3739	1	3739	0.0	7532
+# BLASTP 2.17.0+
+# Query: sp|Q2TBA3.2|MALT1_MOUSE RecName: Full=Mucosa-associated lymphoid tissue lymphoma translocation protein 1 homolog; AltName: Full=Paracaspase
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+sp|Q2TBA3.2|MALT1_MOUSE	Q2TBA3.2	100.000	832	0	0	1	832	1	832	0.0	1735
+sp|Q2TBA3.2|MALT1_MOUSE	Q70KF4.2	30.556	36	25	0	115	150	944	979	7.4	19.6
+sp|Q2TBA3.2|MALT1_MOUSE	Q70KF4.2	25.000	36	27	0	214	249	1266	1301	7.8	19.6
+sp|Q2TBA3.2|MALT1_MOUSE	Q70KF4.2	31.818	22	15	0	54	75	3515	3536	8.4	19.2
+sp|Q2TBA3.2|MALT1_MOUSE	Q70KF4.2	40.000	15	9	0	40	54	715	729	9.8	19.2
+sp|Q2TBA3.2|MALT1_MOUSE	9XRL_D	23.913	46	31	1	552	593	21	66	8.6	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9XRL_p	23.913	46	31	1	552	593	21	66	8.6	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9XRL_O	23.913	46	31	1	552	593	21	66	8.6	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9XRL_q	23.913	46	31	1	552	593	21	66	8.6	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9XRL_F	23.913	46	31	1	552	593	21	66	8.6	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9WSQ_C	23.913	46	31	1	552	593	32	77	9.4	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9WSQ_F	23.913	46	31	1	552	593	32	77	9.4	18.9
+sp|Q2TBA3.2|MALT1_MOUSE	9WSR_C	23.913	46	31	1	552	593	32	77	9.4	18.9
+# BLASTP 2.17.0+
+# Query: sp|P31725.3|S10A9_MOUSE RecName: Full=Protein S100-A9; AltName: Full=Calgranulin-B; AltName: Full=Leukocyte L1 complex heavy chain; AltName: Full=Migration inhibitory factor-related protein 14; Short=MRP-14; Short=p14; AltName: Full=S100 calcium-binding protein A9
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+sp|P31725.3|S10A9_MOUSE	P31725.3	100.000	113	0	0	1	113	1	113	1.62e-86	238
+sp|P31725.3|S10A9_MOUSE	Q9ESU6.2	40.000	15	9	0	97	111	1103	1117	2.4	17.7
+# BLASTP 2.17.0+
+# Query: pdb|9XRL|F Chain F, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9XRL|F	9XRL_D	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|F	9XRL_p	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|F	9XRL_O	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|F	9XRL_q	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|F	9XRL_F	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|F	9WSQ_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|F	9WSQ_F	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|F	9WSR_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|F	Q9ESU6.2	30.000	40	27	1	66	104	1203	1242	0.55	20.4
+pdb|9XRL|F	Q9ESU6.2	39.024	41	19	3	68	106	44	80	1.2	19.6
+pdb|9XRL|F	Q9ESU6.2	83.333	6	1	0	64	69	1051	1056	6.0	17.3
+pdb|9XRL|F	9VJL_A	33.333	27	16	1	71	97	59	83	2.0	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9XRL|q Chain q, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9XRL|q	9XRL_D	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|q	9XRL_p	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|q	9XRL_O	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|q	9XRL_q	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|q	9XRL_F	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|q	9WSQ_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|q	9WSQ_F	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|q	9WSR_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|q	Q9ESU6.2	30.000	40	27	1	66	104	1203	1242	0.55	20.4
+pdb|9XRL|q	Q9ESU6.2	39.024	41	19	3	68	106	44	80	1.2	19.6
+pdb|9XRL|q	Q9ESU6.2	83.333	6	1	0	64	69	1051	1056	6.0	17.3
+pdb|9XRL|q	9VJL_A	33.333	27	16	1	71	97	59	83	2.0	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9XRL|O Chain O, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9XRL|O	9XRL_D	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|O	9XRL_p	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|O	9XRL_O	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|O	9XRL_q	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|O	9XRL_F	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|O	9WSQ_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|O	9WSQ_F	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|O	9WSR_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|O	Q9ESU6.2	30.000	40	27	1	66	104	1203	1242	0.55	20.4
+pdb|9XRL|O	Q9ESU6.2	39.024	41	19	3	68	106	44	80	1.2	19.6
+pdb|9XRL|O	Q9ESU6.2	83.333	6	1	0	64	69	1051	1056	6.0	17.3
+pdb|9XRL|O	9VJL_A	33.333	27	16	1	71	97	59	83	2.0	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9XRL|p Chain p, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9XRL|p	9XRL_D	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|p	9XRL_p	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|p	9XRL_O	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|p	9XRL_q	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|p	9XRL_F	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|p	9WSQ_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|p	9WSQ_F	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|p	9WSR_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|p	Q9ESU6.2	30.000	40	27	1	66	104	1203	1242	0.55	20.4
+pdb|9XRL|p	Q9ESU6.2	39.024	41	19	3	68	106	44	80	1.2	19.6
+pdb|9XRL|p	Q9ESU6.2	83.333	6	1	0	64	69	1051	1056	6.0	17.3
+pdb|9XRL|p	9VJL_A	33.333	27	16	1	71	97	59	83	2.0	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9XRL|D Chain D, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9XRL|D	9XRL_D	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|D	9XRL_p	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|D	9XRL_O	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|D	9XRL_q	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|D	9XRL_F	100.000	163	0	0	1	163	1	163	2.85e-121	330
+pdb|9XRL|D	9WSQ_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|D	9WSQ_F	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|D	9WSR_C	100.000	163	0	0	1	163	12	174	7.00e-121	329
+pdb|9XRL|D	Q9ESU6.2	30.000	40	27	1	66	104	1203	1242	0.55	20.4
+pdb|9XRL|D	Q9ESU6.2	39.024	41	19	3	68	106	44	80	1.2	19.6
+pdb|9XRL|D	Q9ESU6.2	83.333	6	1	0	64	69	1051	1056	6.0	17.3
+pdb|9XRL|D	9VJL_A	33.333	27	16	1	71	97	59	83	2.0	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9WSR|C Chain C, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9WSR|C	9WSQ_C	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSR|C	9WSQ_F	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSR|C	9WSR_C	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSR|C	9XRL_D	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSR|C	9XRL_p	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSR|C	9XRL_O	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSR|C	9XRL_q	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSR|C	9XRL_F	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSR|C	Q9ESU6.2	30.000	40	27	1	77	115	1203	1242	0.62	20.4
+pdb|9WSR|C	Q9ESU6.2	39.024	41	19	3	79	117	44	80	1.6	19.2
+pdb|9WSR|C	Q9ESU6.2	83.333	6	1	0	75	80	1051	1056	7.1	17.3
+pdb|9WSR|C	9VJL_A	33.333	27	16	1	82	108	59	83	2.3	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9WSQ|F Chain F, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9WSQ|F	9WSQ_C	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSQ|F	9WSQ_F	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSQ|F	9WSR_C	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSQ|F	9XRL_D	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|F	9XRL_p	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|F	9XRL_O	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|F	9XRL_q	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|F	9XRL_F	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|F	Q9ESU6.2	30.000	40	27	1	77	115	1203	1242	0.62	20.4
+pdb|9WSQ|F	Q9ESU6.2	39.024	41	19	3	79	117	44	80	1.6	19.2
+pdb|9WSQ|F	Q9ESU6.2	83.333	6	1	0	75	80	1051	1056	7.1	17.3
+pdb|9WSQ|F	9VJL_A	33.333	27	16	1	82	108	59	83	2.3	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9WSQ|C Chain C, S-phase kinase-associated protein 1
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+pdb|9WSQ|C	9WSQ_C	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSQ|C	9WSQ_F	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSQ|C	9WSR_C	100.000	174	0	0	1	174	1	174	1.13e-130	354
+pdb|9WSQ|C	9XRL_D	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|C	9XRL_p	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|C	9XRL_O	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|C	9XRL_q	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|C	9XRL_F	100.000	163	0	0	12	174	1	163	7.47e-121	329
+pdb|9WSQ|C	Q9ESU6.2	30.000	40	27	1	77	115	1203	1242	0.62	20.4
+pdb|9WSQ|C	Q9ESU6.2	39.024	41	19	3	79	117	44	80	1.6	19.2
+pdb|9WSQ|C	Q9ESU6.2	83.333	6	1	0	75	80	1051	1056	7.1	17.3
+pdb|9WSQ|C	9VJL_A	33.333	27	16	1	82	108	59	83	2.3	18.1
+# BLASTP 2.17.0+
+# Query: pdb|9ECS|A Chain A, Protein kinase C delta type
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+pdb|9ECS|A	9ECS_A	100.000	53	0	0	1	53	1	53	3.54e-39	114
+pdb|9ECS|A	Q70KF4.2	57.143	7	3	0	13	19	2223	2229	4.4	15.4
+pdb|9ECS|A	Q70KF4.2	40.000	10	6	0	14	23	3181	3190	9.3	14.6
+# BLAST processed 15 queries

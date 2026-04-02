@@ -1,12 +1,14 @@
-#parses the Patmatmotifs output for this job and writes motifs.json to the job directory 
-# The actual DB insertion is handled by import_motifs.php via PDO to comply with the PDO requirement - was initially python
+# parse_motifs.py
+# Parses the Patmatmotifs output for this job and writes motifs.json
+# to the job directory. The actual DB insertion is handled by
+# import_motifs.php via PDO, to comply with the PDO requirement.
 
 import json
 import re
 
-job_id     = JOB_ID
-motif_file = 'BASE_DIR/motifs.txt'
-out_json   = 'BASE_DIR/motifs.json'
+job_id     = 17
+motif_file = '/localdisk/home/s2837201/public_html/ICA/data/job_17/motifs.txt'
+out_json   = '/localdisk/home/s2837201/public_html/ICA/data/job_17/motifs.json'
 
 output = []
 

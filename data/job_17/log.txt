@@ -1,0 +1,10 @@
+Fetched 20 sequences.
+/usr/lib/python3/dist-packages/Bio/SeqFeature.py:1015: BiopythonParserWarning: Dropping bond qualifier in feature location
+  warnings.warn(
+Wrote 20 sequences to sequences.json.
+Inserted 20 sequences into DB.
+Motif scan complete.
+Wrote 12 motif hits to motifs.json.
+Inserted 12 motif hits into DB.
+Structure predicted for sp|Q8QGA2.1|TIP39_DANRE
+JAHbio job 17 complete.

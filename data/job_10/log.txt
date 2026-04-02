@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+  File "/usr/lib/python3/dist-packages/Bio/Entrez/__init__.py", line 518, in read
+    record = handler.read(source)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/Bio/Entrez/Parser.py", line 403, in read
+    self.parser.ParseFile(stream)
+  File "../Modules/pyexpat.c", line 475, in EndElement
+  File "/usr/lib/python3/dist-packages/Bio/Entrez/Parser.py", line 816, in endErrorElementHandler
+    raise RuntimeError(data)
+RuntimeError: Search Backend failed: 		
+

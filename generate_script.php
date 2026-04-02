@@ -8,7 +8,7 @@ function generate_script($job_id, $base_dir, $protein, $taxon, $max_seqs,
 
     $protein_safe = escapeshellarg($protein);
     $taxon_safe   = escapeshellarg($taxon);
-    $db_update    = "mysql -u $username -p$password $database -e";
+    $php_dir      = '/localdisk/home/s2837201/public_html/ICA';
 
     // Header and environment
     $s  = "#!/bin/bash\n";
@@ -25,15 +25,15 @@ function generate_script($job_id, $base_dir, $protein, $taxon, $max_seqs,
     $s .= "MAX_SEQS={$max_seqs}\n";
     $s .= 'FASTA="$BASE/sequences.fasta"' . "\n";
     $s .= 'ALIGNED="$BASE/aligned.fasta"' . "\n";
-    $s .= "DB_UPDATE=\"{$db_update}\"\n\n";
+    $s .= "PHP_DIR={$php_dir}\n\n";
 
     // update_status helper 
     $s .= <<<'BASH'
 update_status() {
     if [ -z "$3" ]; then
-        $DB_UPDATE "UPDATE analysis SET status='$2' WHERE job_id=$JOB_ID AND analysis_type='$1';"
+        php $PHP_DIR/update_status.php $JOB_ID "$1" "$2"
     else
-        $DB_UPDATE "UPDATE analysis SET status='$2', output_file='$3' WHERE job_id=$JOB_ID AND analysis_type='$1';"
+        php $PHP_DIR/update_status.php $JOB_ID "$1" "$2" "$3"
     fi
 }
 
@@ -50,7 +50,6 @@ BASH;
     $s .= "fasta_out   = '{$base_dir}/sequences.fasta'\n";
     $s .= "max_seqs    = {$max_seqs}\n\n";
     $s .= <<<'PYEOF'
-
 import time
 id_list = []
 for attempt in range(3):
@@ -82,9 +81,9 @@ PYEOF;
     $s .= "if [ \$? -ne 0 ]; then update_status fetch Failed; exit 1; fi\n\n";
     $s .= "N_SEQS=\$(grep -c '^>' \"{$base_dir}/sequences.fasta\" 2>/dev/null)\n";
     $s .= "N_SEQS=\${N_SEQS:-0}\n";
-    $s .= "\$DB_UPDATE \"UPDATE jobs SET n_returned=\$N_SEQS WHERE job_id=\$JOB_ID;\"\n";
+    $s .= "php \$PHP_DIR/update_job.php \$JOB_ID \$N_SEQS\n";
     $s .= "update_status fetch Complete \"{$base_dir}/sequences.fasta\"\n";
-    $s .= "# Parse the sequences to JSON then import via PDO\n";
+    $s .= "# Parse sequences to JSON then import via PDO\n";
     $s .= "python3 \$BASE/parse_sequences.py\n";
     $s .= "php /localdisk/home/s2837201/public_html/ICA/import_sequences.php \$JOB_ID \$BASE\n\n";
 
@@ -116,7 +115,7 @@ PYEOF;
     $s .= "\nPYEOF\n";
     $s .= "update_status histogram Complete '{$base_dir}/histogram.png'\n\n";
 
-    // 3+4: Alignment + Conservation (clustalo+plotcon)
+    //3+4: Alignment + Conservation
     if ($do_align) {
         $s .= <<<'BASH'
 update_status alignment Running
@@ -140,20 +139,49 @@ BASH;
 
     // 5: PROSITE motif scan (patmatmotifs)
     if ($do_motif) {
-        $s .= <<<'BASH'
-update_status motif Running
-MOTIF_OUT="$BASE/motifs.txt"
-patmatmotifs -sequence "$FASTA" -outfile "$MOTIF_OUT" -auto
-if [ $? -eq 0 ]; then
-    update_status motif Complete "$MOTIF_OUT"
-    # Parse motifs to JSON then import via PDO
-    python3 $BASE/parse_motifs.py
-    php /localdisk/home/s2837201/public_html/ICA/import_motifs.php $JOB_ID $BASE
-else
-    update_status motif Failed
-fi
+        $s .= "update_status motif Running\n";
+        $s .= "MOTIF_OUT=\"\$BASE/motifs.txt\"\n";
+        $s .= "> \"\$MOTIF_OUT\"\n";
+        $s .= "python3 - <<'PYEOF'\n";
+        $s .= "from Bio import SeqIO\n";
+        $s .= "import subprocess, os, tempfile\n\n";
+        $s .= "fasta    = '{$base_dir}/sequences.fasta'\n";
+        $s .= "out_file = '{$base_dir}/motifs.txt'\n\n";
+        $s .= <<<'PYEOF'
+with open(out_file, 'w') as combined:
+    for rec in SeqIO.parse(fasta, 'fasta'):
+        # clean accession to match what is stored in sequences table
+        acc = rec.id
+        if '|' in acc:
+            parts = acc.split('|')
+            if parts[0] == 'pdb' and len(parts) >= 3:
+                acc = parts[1] + '_' + parts[2]
+            else:
+                acc = parts[1]
+        # write single sequence to temp file using cleaned accession
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.fasta', delete=False) as tmp:
+            tmp.write(f'>{acc}\n{str(rec.seq)}\n')
+            tmp_path = tmp.name
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as out:
+            out_path = out.name
+        # run patmatmotifs on single sequence
+        subprocess.run(['patmatmotifs', '-sequence', tmp_path, '-outfile', out_path, '-auto'],
+                       capture_output=True)
+        with open(out_path) as f:
+            combined.write(f.read())
+        os.unlink(tmp_path)
+        os.unlink(out_path)
 
-BASH;
+print('Motif scan complete.')
+PYEOF;
+        $s .= "\nPYEOF\n";
+        $s .= "if [ \$? -eq 0 ]; then\n";
+        $s .= "    update_status motif Complete \"\$MOTIF_OUT\"\n";
+        $s .= "    python3 \$BASE/parse_motifs.py\n";
+        $s .= "    php /localdisk/home/s2837201/public_html/ICA/import_motifs.php \$JOB_ID \$BASE\n";
+        $s .= "else\n";
+        $s .= "    update_status motif Failed\n";
+        $s .= "fi\n\n";
     }
 
     // 6: BLAST 
@@ -175,6 +203,7 @@ BASH;
 
     // 7: ESMFold structure prediction 
     if ($do_pymol) {
+        $s .= "# ---- STEP 7: Predict 3D structure with ESMFold ----\n";
         $s .= "update_status pymol Running\n";
         $s .= "python3 - <<'PYEOF'\n";
         $s .= "from Bio import SeqIO\n";
@@ -186,7 +215,7 @@ BASH;
 rec = next(SeqIO.parse(fasta, 'fasta'))
 seq = str(rec.seq)
 
-# Truncate to 400aa max — ESMFold is slow on very long sequences - better user experience
+# truncate to 400aa max — ESMFold is slow on very long sequences - improved UX
 seq = seq[:400]
 
 result = subprocess.run(
@@ -198,7 +227,7 @@ result = subprocess.run(
     capture_output=True, text=True
 )
 
-# Validate output
+# validate output
 with open(pdb_out) as f:
     first_line = f.readline()
 if 'HEADER' in first_line or 'ATOM' in first_line:

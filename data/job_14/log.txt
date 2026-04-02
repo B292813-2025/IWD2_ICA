@@ -1,0 +1,39 @@
+Fetched 15 sequences.
+/usr/lib/python3/dist-packages/Bio/SeqFeature.py:1015: BiopythonParserWarning: Dropping bond qualifier in feature location
+  warnings.warn(
+Wrote 15 sequences to sequences.json.
+Inserted 15 sequences into DB.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_14/conservation.1.png
+Motif scan complete.
+Wrote 17 motif hits to motifs.json.
+Warning: accession BRD4_MOUSE not found in sequences table
+Warning: accession BRD4_MOUSE not found in sequences table
+Warning: accession CMYA5_MOUSE not found in sequences table
+Warning: accession CMYA5_MOUSE not found in sequences table
+Warning: accession CMYA5_MOUSE not found in sequences table
+Warning: accession CMYA5_MOUSE not found in sequences table
+Warning: accession MALT1_MOUSE not found in sequences table
+Warning: accession S10A9_MOUSE not found in sequences table
+Warning: accession 9XRLF not found in sequences table
+Warning: accession 9XRLq not found in sequences table
+Warning: accession 9XRLO not found in sequences table
+Warning: accession 9XRLp not found in sequences table
+Warning: accession 9XRLD not found in sequences table
+Warning: accession 9WSRC not found in sequences table
+Warning: accession 9WSQF not found in sequences table
+Warning: accession 9WSQC not found in sequences table
+Warning: accession 9ECSA not found in sequences table
+Inserted 0 motif hits into DB.
+
+
+Building a new DB, current time: 04/02/2026 17:22:34
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_14/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_14/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 15 sequences in 0.00881815 seconds.
+
+
+Structure predicted for pdb|9VJL|B
+JAHbio job 14 complete.

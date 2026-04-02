@@ -1,0 +1,20 @@
+Fetched 50 sequences.
+Wrote 50 sequences to sequences.json.
+Inserted 50 sequences into DB.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_8/conservation.1.png
+Wrote 1 motif hits to motifs.json.
+Warning: accession KAN1727817 not found in sequences table
+Inserted 0 motif hits into DB.
+
+
+Building a new DB, current time: 04/01/2026 17:13:12
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_8/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_8/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 50 sequences in 0.168989 seconds.
+
+
+Structure predicted for KAN1727817.1
+JAHbio job 8 complete.

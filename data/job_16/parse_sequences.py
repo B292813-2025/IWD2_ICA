@@ -1,13 +1,13 @@
-# Parses the FASTA file for this job and writes sequences.json to the job directory
-# The actual DB insertion is handled by import_sequences.php via PDO
+# Parses the FASTA file for this job and writes sequences.json to the job directory. The actual DB insertion is handled by
+# import_sequences.php via PDO
 
 import json
 import re as _re
 from Bio import Entrez, SeqIO
 
-job_id   = JOB_ID
-fasta    = 'BASE_DIR/sequences.fasta'
-out_json = 'BASE_DIR/sequences.json'
+job_id   = 16
+fasta    = '/localdisk/home/s2837201/public_html/ICA/data/job_16/sequences.fasta'
+out_json = '/localdisk/home/s2837201/public_html/ICA/data/job_16/sequences.json'
 
 Entrez.email   = 's2837201@ed.ac.uk'
 Entrez.api_key = 'bc81dc27024bce567d64cb201a28e9ad8508'
@@ -29,12 +29,12 @@ with open(fasta) as f:
         records.append((header, ''.join(seq)))
 
 def clean_acc(raw):
-    """Clean accession from various NCBI formats into a simple ID"""
+    """Clean accession from various NCBI formats into a simple ID."""
     acc = raw.split(' ', 1)[0]
     if '|' in acc:
         parts = acc.split('|')
         if parts[0] == 'pdb' and len(parts) >= 3:
-            acc = parts[1] + '_' + parts[2]
+            acc = parts[1] + '_' + parts[2]  # e.g. 9PWQ_A
         else:
             acc = parts[1]
     if '.' in acc and '_' not in acc:

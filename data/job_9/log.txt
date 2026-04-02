@@ -1,0 +1,21 @@
+Fetched 50 sequences.
+/usr/lib/python3/dist-packages/Bio/SeqFeature.py:1015: BiopythonParserWarning: Dropping bond qualifier in feature location
+  warnings.warn(
+Wrote 50 sequences to sequences.json.
+Inserted 50 sequences into DB.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_9/conservation.1.png
+Wrote 0 motif hits to motifs.json.
+No motif hits to insert.
+
+
+Building a new DB, current time: 04/01/2026 17:24:05
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_9/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_9/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 50 sequences in 0.168036 seconds.
+
+
+Structure predicted for pdb|9VJL|B
+JAHbio job 9 complete.

@@ -1,0 +1,18 @@
+Fetched 15 sequences.
+/usr/lib/python3/dist-packages/Bio/SeqFeature.py:1015: BiopythonParserWarning: Dropping bond qualifier in feature location
+  warnings.warn(
+Wrote 15 sequences to sequences.json.
+Inserted 15 sequences into DB.
+Motif scan complete.
+Wrote 17 motif hits to motifs.json.
+Warning: accession Q9ESU6.2 not found in sequences table
+Warning: accession Q9ESU6.2 not found in sequences table
+Warning: accession Q70KF4.2 not found in sequences table
+Warning: accession Q70KF4.2 not found in sequences table
+Warning: accession Q70KF4.2 not found in sequences table
+Warning: accession Q70KF4.2 not found in sequences table
+Warning: accession Q2TBA3.2 not found in sequences table
+Warning: accession P31725.3 not found in sequences table
+Inserted 9 motif hits into DB.
+Structure predicted for pdb|9VJL|B
+JAHbio job 15 complete.
