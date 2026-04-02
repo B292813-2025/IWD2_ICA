@@ -216,17 +216,17 @@
     </p>
 
     <hr>
-
     <h3>Tips for Getting Good Results</h3>
+    </br>
     <div class="infobox">
-        Use the correct taxonomic name (e.g. <em>Rodentia</em> rather than "rodents", or
-        <em>Homo sapiens</em> rather than "human"). NCBI uses formal taxonomy.<br>
-        Use the singular form of the protein name (e.g. "kinase" rather than "kinases").<br>
-        Start with 20-50 sequences for a manageable, informative dataset. Very large
-        datasets (100+) will take longer to process.<br>
-        If no sequences are found, try broadening the taxon (e.g. from a species to a family
-        or order) or simplifying the protein name.<br>
-        The example dataset (glucose-6-phosphatase in Aves) is a good reference
+        1. &nbsp Use the correct taxonomic name (e.g. <em>Rodentia</em> rather than "rodents", or
+        <em>Homo sapiens</em> rather than "human"). NCBI uses formal taxonomy.</br>
+        2. &nbsp Use the singular form of the protein name (e.g. "kinase" rather than "kinases").</br>
+        3. &nbsp Start with 20-50 sequences for a manageable, informative dataset. Very large
+        datasets (100+) will take longer to process.</br>
+        4. &nbsp If no sequences are found, try broadening the taxon (e.g. from a species to a family
+        or order) or simplifying the protein name.</br>
+        5. &nbsp The example dataset (glucose-6-phosphatase in Aves) is a good reference
         for what a complete, well-populated analysis looks like.
     </div>
 
