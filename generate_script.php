@@ -1,23 +1,27 @@
 <?php
 // Returns the complete run_analysis.sh bash script as a string
 // Called once per job from search.php
+// fetch --> histogram --> alignment --> motifs --> blast --> structure
 
 function generate_script($job_id, $base_dir, $protein, $taxon, $max_seqs,
                           $do_align, $do_motif, $do_blast, $do_pymol,
                           $username, $password, $database, $search_type = 'All Fields') {
-
+   
+    //safe shell insertion
     $protein_safe = escapeshellarg($protein);
     $taxon_safe   = escapeshellarg($taxon);
+    // directory containing helper PHP script
     $php_dir      = '/localdisk/home/s2837201/public_html/ICA';
 
     // Header and environment
+    // ensure required tools are present in PATH
     $s  = "#!/bin/bash\n";
     $s .= "export PATH=/localdisk/home/s2837201/edirect:/usr/bin:/localdisk/home/ubuntu-software/blast217/ncbi-blast-2.17.0+-src/c++/ReleaseMT/bin:/bin\n";
     $s .= "export MPLCONFIGDIR=/tmp\n";
     $s .= "export NCBI_API_KEY=bc81dc27024bce567d64cb201a28e9ad8508\n";
     $s .= "# run_analysis.sh — JAHbio job {$job_id}\n\n";
 
-    // Bash variables
+    // define bash variables (also set file paths)
     $s .= "JOB_ID={$job_id}\n";
     $s .= "BASE={$base_dir}\n";
     $s .= "PROTEIN={$protein_safe}\n";
@@ -28,6 +32,9 @@ function generate_script($job_id, $base_dir, $protein, $taxon, $max_seqs,
     $s .= "PHP_DIR={$php_dir}\n\n";
 
     // update_status helper 
+    // $1 = analysis type
+    // $2 = status 
+    // $3 = output file path
     $s .= <<<'BASH'
 update_status() {
     if [ -z "$3" ]; then
@@ -52,6 +59,7 @@ BASH;
     $s .= <<<'PYEOF'
 import time
 id_list = []
+# retry search up to 3 times (handles NCBI errors)
 for attempt in range(3):
     try:
         handle  = Entrez.esearch(db='protein', term=search_term, retmax=max_seqs)
@@ -66,6 +74,7 @@ for attempt in range(3):
             print('NCBI search failed after 3 attempts')
             sys.exit(1)
 
+# Require at least 2 sequences - exit
 if len(id_list) < 2:
     print(f"Only {len(id_list)} sequences found - exiting")
     sys.exit(1)
@@ -78,10 +87,14 @@ fetch_handle.close()
 print(f"Fetched {len(id_list)} sequences.")
 PYEOF;
     $s .= "\nPYEOF\n";
+    // Check exit status of Python script
     $s .= "if [ \$? -ne 0 ]; then update_status fetch Failed; exit 1; fi\n\n";
+    // Count number of sequences retrieved
     $s .= "N_SEQS=\$(grep -c '^>' \"{$base_dir}/sequences.fasta\" 2>/dev/null)\n";
     $s .= "N_SEQS=\${N_SEQS:-0}\n";
+    // Update jobs table with number of sequences
     $s .= "php \$PHP_DIR/update_job.php \$JOB_ID \$N_SEQS\n";
+    // Mark step as complete and store output file
     $s .= "update_status fetch Complete \"{$base_dir}/sequences.fasta\"\n";
     $s .= "# Parse sequences to JSON then import via PDO\n";
     $s .= "python3 \$BASE/parse_sequences.py\n";
@@ -94,6 +107,8 @@ PYEOF;
     $s .= "fasta   = '{$base_dir}/sequences.fasta'\n";
     $s .= "out_png = '{$base_dir}/histogram.png'\n\n";
     $s .= <<<'PYEOF'
+
+# extract sequence lengths from FASTA
 lengths = []
 with open(fasta) as f:
     seq = ""
@@ -118,14 +133,19 @@ PYEOF;
     //3+4: Alignment + Conservation
     if ($do_align) {
         $s .= <<<'BASH'
+
+# MSA using Clustal Omega
 update_status alignment Running
 clustalo -i "$FASTA" -o "$ALIGNED" --outfmt=fasta --force
+
+# Check result and update status
 if [ $? -eq 0 ]; then
     update_status alignment Complete "$ALIGNED"
 else
     update_status alignment Failed
 fi
 
+# Conservation plot using EMBOSS plotcon
 update_status conservation Running
 plotcon -sequence "$ALIGNED" -winsize 4 -graph png -goutfile "$BASE/conservation" -auto
 if [ $? -eq 0 ]; then
@@ -142,12 +162,16 @@ BASH;
         $s .= "update_status motif Running\n";
         $s .= "MOTIF_OUT=\"\$BASE/motifs.txt\"\n";
         $s .= "> \"\$MOTIF_OUT\"\n";
+
+        // Python script processes each sequence individually
         $s .= "python3 - <<'PYEOF'\n";
         $s .= "from Bio import SeqIO\n";
         $s .= "import subprocess, os, tempfile\n\n";
         $s .= "fasta    = '{$base_dir}/sequences.fasta'\n";
         $s .= "out_file = '{$base_dir}/motifs.txt'\n\n";
         $s .= <<<'PYEOF'
+
+# run motif scan per sequence
 with open(out_file, 'w') as combined:
     for rec in SeqIO.parse(fasta, 'fasta'):
         # clean accession to match what is stored in sequences table
@@ -167,8 +191,11 @@ with open(out_file, 'w') as combined:
         # run patmatmotifs on single sequence
         subprocess.run(['patmatmotifs', '-sequence', tmp_path, '-outfile', out_path, '-auto'],
                        capture_output=True)
+        # Append results
         with open(out_path) as f:
             combined.write(f.read())
+
+        # Clean up temp files
         os.unlink(tmp_path)
         os.unlink(out_path)
 
@@ -203,7 +230,6 @@ BASH;
 
     // 7: ESMFold structure prediction 
     if ($do_pymol) {
-        $s .= "# ---- STEP 7: Predict 3D structure with ESMFold ----\n";
         $s .= "update_status pymol Running\n";
         $s .= "python3 - <<'PYEOF'\n";
         $s .= "from Bio import SeqIO\n";
