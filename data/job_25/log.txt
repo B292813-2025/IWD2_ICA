@@ -1,0 +1,20 @@
+Fetched 4 sequences.
+Wrote 4 sequences to sequences.json.
+Inserted 4 sequences into DB.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_25/conservation.1.png
+Motif scan complete.
+Wrote 4 motif hits to motifs.json.
+Inserted 4 motif hits into DB.
+
+
+Building a new DB, current time: 04/02/2026 18:37:19
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_25/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_25/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 4 sequences in 0.167604 seconds.
+
+
+Structure predicted for KAI6077391.1
+JAHbio job 25 complete.

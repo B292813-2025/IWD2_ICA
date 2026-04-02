@@ -1,0 +1,20 @@
+Fetched 6 sequences.
+Wrote 6 sequences to sequences.json.
+Inserted 6 sequences into DB.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_29/conservation.1.png
+Motif scan complete.
+Wrote 0 motif hits to motifs.json.
+No motif hits to insert.
+
+
+Building a new DB, current time: 04/02/2026 18:41:20
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_29/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00804305 seconds.
+
+
+Structure predicted for sp|Q91W27.1|TIP39_MOUSE
+JAHbio job 29 complete.

@@ -1,0 +1,8 @@
+Fetched 50 sequences.
+Wrote 50 sequences to sequences.json.
+Inserted 50 sequences into DB.
+Motif scan complete.
+Wrote 11 motif hits to motifs.json.
+Inserted 11 motif hits into DB.
+Structure predicted for KAN4049539.1
+JAHbio job 32 complete.

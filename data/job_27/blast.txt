@@ -1,0 +1,751 @@
+# BLASTP 2.17.0+
+# Query: YDP00925.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDP00925.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDP00925.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YDP00925.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YDP00925.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: YDO68207.1 cytochrome c oxidase subunit 1 (mitochondrion) [Lynx rufus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDO68207.1	YDO68207.1	100.000	514	0	0	1	514	1	514	0.0	1026
+YDO68207.1	XHB32457.1	96.109	514	20	0	1	514	1	514	0.0	994
+YDO68207.1	YP_161184.1	94.129	511	30	0	1	511	1	511	0.0	931
+YDO68207.1	YDN31017.1	92.955	511	36	0	1	511	1	511	0.0	912
+YDO68207.1	YDN31030.1	92.955	511	36	0	1	511	1	511	0.0	912
+YDO68207.1	YCQ37814.1	92.955	511	36	0	1	511	1	511	0.0	912
+YDO68207.1	YDN93780.1	92.955	511	36	0	1	511	1	511	0.0	912
+YDO68207.1	YDN93963.1	92.955	511	36	0	1	511	1	511	0.0	912
+YDO68207.1	YDN94102.1	92.955	511	36	0	1	511	1	511	0.0	912
+YDO68207.1	YDP00925.1	92.955	511	36	0	1	511	1	511	0.0	912
+# BLASTP 2.17.0+
+# Query: YDN89158.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Mus musculus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN89158.1	YDN89097.1	100.000	244	0	0	1	244	1	244	2.24e-178	482
+YDN89158.1	YDN89158.1	100.000	244	0	0	1	244	1	244	2.24e-178	482
+YDN89158.1	YDN89157.1	100.000	240	0	0	1	240	4	243	1.17e-174	472
+YDN89158.1	YDN89156.1	100.000	238	0	0	1	238	2	239	4.92e-173	468
+YDN89158.1	YDO68207.1	97.942	243	5	0	2	244	1	243	2.37e-171	474
+YDN89158.1	YAI74367.1	96.311	244	9	0	1	244	21	264	6.71e-171	471
+YDN89158.1	YAI74368.1	96.311	244	9	0	1	244	21	264	6.71e-171	471
+YDN89158.1	YAI74366.1	96.311	244	9	0	1	244	21	264	7.24e-171	471
+YDN89158.1	YAI74369.1	96.311	244	9	0	1	244	21	264	7.24e-171	471
+YDN89158.1	YAI74363.1	96.311	244	9	0	1	244	21	264	8.44e-171	471
+# BLASTP 2.17.0+
+# Query: YDN89157.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Mus musculus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN89157.1	YDN89157.1	100.000	243	0	0	1	243	1	243	7.48e-177	478
+YDN89157.1	YDN89097.1	100.000	240	0	0	4	243	1	240	1.17e-174	472
+YDN89157.1	YDN89158.1	100.000	240	0	0	4	243	1	240	1.17e-174	472
+YDN89157.1	YDN89156.1	100.000	239	0	0	3	241	1	239	8.63e-174	470
+YDN89157.1	YAI74363.1	96.296	243	9	0	1	243	18	260	5.46e-169	466
+YDN89157.1	YAI74366.1	96.296	243	9	0	1	243	18	260	6.94e-169	466
+YDN89157.1	YAI74369.1	96.296	243	9	0	1	243	18	260	6.94e-169	466
+YDN89157.1	YAI74367.1	96.296	243	9	0	1	243	18	260	7.10e-169	466
+YDN89157.1	YAI74368.1	96.296	243	9	0	1	243	18	260	7.10e-169	466
+YDN89157.1	YAI74364.1	96.296	243	9	0	1	243	18	260	8.93e-169	466
+# BLASTP 2.17.0+
+# Query: YDN89156.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Mus musculus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN89156.1	YDN89156.1	100.000	239	0	0	1	239	1	239	4.58e-174	470
+YDN89156.1	YDN89157.1	100.000	239	0	0	1	239	3	241	8.49e-174	470
+YDN89156.1	YDN89097.1	100.000	238	0	0	2	239	1	238	4.82e-173	468
+YDN89156.1	YDN89158.1	100.000	238	0	0	2	239	1	238	4.82e-173	468
+YDN89156.1	YDN89096.1	100.000	230	0	0	10	239	1	230	1.88e-166	451
+YDN89156.1	YAI74366.1	96.234	239	9	0	1	239	20	258	3.70e-166	459
+YDN89156.1	YAI74367.1	96.234	239	9	0	1	239	20	258	3.70e-166	459
+YDN89156.1	YAI74368.1	96.234	239	9	0	1	239	20	258	3.70e-166	459
+YDN89156.1	YAI74369.1	96.234	239	9	0	1	239	20	258	3.70e-166	459
+YDN89156.1	YDO68207.1	97.890	237	5	0	3	239	1	237	4.06e-166	461
+# BLASTP 2.17.0+
+# Query: YDN89097.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Mus musculus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN89097.1	YDN89097.1	100.000	244	0	0	1	244	1	244	2.24e-178	482
+YDN89097.1	YDN89158.1	100.000	244	0	0	1	244	1	244	2.24e-178	482
+YDN89097.1	YDN89157.1	100.000	240	0	0	1	240	4	243	1.17e-174	472
+YDN89097.1	YDN89156.1	100.000	238	0	0	1	238	2	239	4.92e-173	468
+YDN89097.1	YDO68207.1	97.942	243	5	0	2	244	1	243	2.37e-171	474
+YDN89097.1	YAI74367.1	96.311	244	9	0	1	244	21	264	6.71e-171	471
+YDN89097.1	YAI74368.1	96.311	244	9	0	1	244	21	264	6.71e-171	471
+YDN89097.1	YAI74366.1	96.311	244	9	0	1	244	21	264	7.24e-171	471
+YDN89097.1	YAI74369.1	96.311	244	9	0	1	244	21	264	7.24e-171	471
+YDN89097.1	YAI74363.1	96.311	244	9	0	1	244	21	264	8.44e-171	471
+# BLASTP 2.17.0+
+# Query: YDN89096.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Mus musculus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN89096.1	YDN89096.1	100.000	232	0	0	1	232	1	232	1.44e-168	456
+YDN89096.1	YDN89157.1	100.000	232	0	0	1	232	12	243	2.64e-168	456
+YDN89096.1	YDN89097.1	100.000	232	0	0	1	232	9	240	4.35e-168	455
+YDN89096.1	YDN89158.1	100.000	232	0	0	1	232	9	240	4.35e-168	455
+YDN89096.1	YDN89156.1	100.000	230	0	0	1	230	10	239	1.82e-166	451
+YDN89096.1	YDO68207.1	98.276	232	4	0	1	232	8	239	9.66e-163	452
+YDN89096.1	YAI74366.1	96.121	232	9	0	1	232	29	260	1.35e-160	444
+YDN89096.1	YAI74369.1	96.121	232	9	0	1	232	29	260	1.35e-160	444
+YDN89096.1	YAI74367.1	96.121	232	9	0	1	232	29	260	1.37e-160	444
+YDN89096.1	YAI74368.1	96.121	232	9	0	1	232	29	260	1.37e-160	444
+# BLASTP 2.17.0+
+# Query: XHB32457.1 cytochrome c oxidase subunit I (mitochondrion) [Eonycteris robusta]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+XHB32457.1	XHB32457.1	100.000	514	0	0	1	514	1	514	0.0	1024
+XHB32457.1	YDO68207.1	96.109	514	20	0	1	514	1	514	0.0	994
+XHB32457.1	YP_161184.1	94.325	511	29	0	1	511	1	511	0.0	930
+XHB32457.1	YDN31017.1	90.998	511	46	0	1	511	1	511	0.0	893
+XHB32457.1	YDN31030.1	90.998	511	46	0	1	511	1	511	0.0	893
+XHB32457.1	YCQ37814.1	90.998	511	46	0	1	511	1	511	0.0	893
+XHB32457.1	YDN93780.1	90.998	511	46	0	1	511	1	511	0.0	893
+XHB32457.1	YDN93963.1	90.998	511	46	0	1	511	1	511	0.0	893
+XHB32457.1	YDN94102.1	90.998	511	46	0	1	511	1	511	0.0	893
+XHB32457.1	YDP00925.1	90.998	511	46	0	1	511	1	511	0.0	893
+# BLASTP 2.17.0+
+# Query: YDN94102.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN94102.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN94102.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YDN94102.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YDN94102.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: YDN93963.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN93963.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93963.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YDN93963.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YDN93963.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: YDN93780.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN93780.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN93780.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YDN93780.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YDN93780.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: WIS29169.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29169.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29169.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29168.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29168.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29168.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29167.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29167.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29167.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29166.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29166.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29166.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29165.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29165.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29165.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29164.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29164.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29164.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29163.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29163.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29163.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29162.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29162.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29162.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29161.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29161.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29161.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIS29160.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus coibensis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIS29160.1	WIS29160.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29161.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29162.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29163.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29164.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29165.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29166.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29167.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29168.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+WIS29160.1	WIS29169.1	100.000	204	0	0	1	204	1	204	5.85e-147	399
+# BLASTP 2.17.0+
+# Query: WIO21495.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21495.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21495.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21495.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21494.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21494.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21494.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21494.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21493.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21493.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21493.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21493.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21492.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21492.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21492.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21492.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21491.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21491.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21491.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21491.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21490.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21490.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21490.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21490.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21489.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21489.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21489.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21489.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: WIO21488.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Molossus molossus]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+WIO21488.1	WIO21488.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21489.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21490.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21491.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21492.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21493.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21494.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	WIO21495.1	100.000	213	0	0	1	213	1	213	2.33e-153	416
+WIO21488.1	YDN61822.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+WIO21488.1	YDN61823.1	100.000	213	0	0	1	213	7	219	2.48e-153	416
+# BLASTP 2.17.0+
+# Query: YDO06572.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Typhlomys sp.]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDO06572.1	YDO06569.1	100.000	480	0	0	1	480	3	482	0.0	951
+YDO06572.1	YDO06572.1	100.000	480	0	0	1	480	1	480	0.0	951
+YDO06572.1	YDO06571.1	100.000	480	0	0	1	480	5	484	0.0	951
+YDO06572.1	YDO06570.1	100.000	475	0	0	1	475	6	480	0.0	940
+YDO06572.1	YDO68207.1	93.750	480	30	0	1	480	17	496	0.0	862
+YDO06572.1	XHB32457.1	93.542	480	31	0	1	480	17	496	0.0	860
+YDO06572.1	YP_161184.1	92.292	480	37	0	1	480	17	496	0.0	852
+YDO06572.1	YDN31017.1	89.583	480	50	0	1	480	17	496	0.0	821
+YDO06572.1	YDN31030.1	89.583	480	50	0	1	480	17	496	0.0	821
+YDO06572.1	YCQ37814.1	89.583	480	50	0	1	480	17	496	0.0	821
+# BLASTP 2.17.0+
+# Query: YDO06571.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Typhlomys sp.]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDO06571.1	YDO06571.1	100.000	484	0	0	1	484	1	484	0.0	960
+YDO06571.1	YDO06569.1	100.000	482	0	0	3	484	1	482	0.0	955
+YDO06571.1	YDO06572.1	100.000	480	0	0	5	484	1	480	0.0	951
+YDO06571.1	YDO06570.1	100.000	479	0	0	1	479	2	480	0.0	949
+YDO06571.1	YDO68207.1	93.802	484	30	0	1	484	13	496	0.0	872
+YDO06571.1	XHB32457.1	93.595	484	31	0	1	484	13	496	0.0	868
+YDO06571.1	YP_161184.1	92.355	484	37	0	1	484	13	496	0.0	860
+YDO06571.1	YDN31017.1	89.669	484	50	0	1	484	13	496	0.0	830
+YDO06571.1	YDN31030.1	89.669	484	50	0	1	484	13	496	0.0	830
+YDO06571.1	YCQ37814.1	89.669	484	50	0	1	484	13	496	0.0	830
+# BLASTP 2.17.0+
+# Query: YDO06570.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Typhlomys sp.]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDO06570.1	YDO06570.1	100.000	480	0	0	1	480	1	480	0.0	952
+YDO06570.1	YDO06571.1	100.000	479	0	0	2	480	1	479	0.0	949
+YDO06570.1	YDO06569.1	100.000	477	0	0	4	480	1	477	0.0	944
+YDO06570.1	YDO06572.1	100.000	475	0	0	6	480	1	475	0.0	940
+YDO06570.1	YDO68207.1	93.750	480	30	0	1	480	12	491	0.0	863
+YDO06570.1	XHB32457.1	93.542	480	31	0	1	480	12	491	0.0	860
+YDO06570.1	YP_161184.1	92.708	480	35	0	1	480	12	491	0.0	855
+YDO06570.1	YAI74363.1	95.581	430	19	0	1	430	33	462	0.0	829
+YDO06570.1	YAI74364.1	95.581	430	19	0	1	430	33	462	0.0	829
+YDO06570.1	YAI74365.1	95.581	430	19	0	1	430	33	462	0.0	828
+# BLASTP 2.17.0+
+# Query: YDO06569.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Typhlomys sp.]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDO06569.1	YDO06571.1	100.000	482	0	0	1	482	3	484	0.0	955
+YDO06569.1	YDO06569.1	100.000	482	0	0	1	482	1	482	0.0	954
+YDO06569.1	YDO06572.1	100.000	480	0	0	3	482	1	480	0.0	951
+YDO06569.1	YDO06570.1	100.000	477	0	0	1	477	4	480	0.0	944
+YDO06569.1	YDO68207.1	93.776	482	30	0	1	482	15	496	0.0	867
+YDO06569.1	XHB32457.1	93.568	482	31	0	1	482	15	496	0.0	863
+YDO06569.1	YP_161184.1	92.324	482	37	0	1	482	15	496	0.0	855
+YDO06569.1	YDN31017.1	89.627	482	50	0	1	482	15	496	0.0	824
+YDO06569.1	YDN31030.1	89.627	482	50	0	1	482	15	496	0.0	824
+YDO06569.1	YCQ37814.1	89.627	482	50	0	1	482	15	496	0.0	824
+# BLASTP 2.17.0+
+# Query: YDN61826.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Nyctalus leisleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN61826.1	YDN61822.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61826.1	YDN61823.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61826.1	YDN61824.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61826.1	YDN61825.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61826.1	YDN61826.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61826.1	YDN89096.1	98.174	219	4	0	1	219	10	228	1.54e-155	422
+YDN61826.1	YDN89157.1	98.174	219	4	0	1	219	21	239	4.57e-155	422
+YDN61826.1	YDN89156.1	98.174	219	4	0	1	219	19	237	5.21e-155	421
+YDN61826.1	YDN89097.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+YDN61826.1	YDN89158.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+# BLASTP 2.17.0+
+# Query: YDN61825.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Nyctalus leisleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN61825.1	YDN61822.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61825.1	YDN61823.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61825.1	YDN61824.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61825.1	YDN61825.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61825.1	YDN61826.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61825.1	YDN89096.1	98.174	219	4	0	1	219	10	228	1.54e-155	422
+YDN61825.1	YDN89157.1	98.174	219	4	0	1	219	21	239	4.57e-155	422
+YDN61825.1	YDN89156.1	98.174	219	4	0	1	219	19	237	5.21e-155	421
+YDN61825.1	YDN89097.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+YDN61825.1	YDN89158.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+# BLASTP 2.17.0+
+# Query: YDN61824.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Nyctalus leisleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN61824.1	YDN61822.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61824.1	YDN61823.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61824.1	YDN61824.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61824.1	YDN61825.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61824.1	YDN61826.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61824.1	YDN89096.1	98.174	219	4	0	1	219	10	228	1.54e-155	422
+YDN61824.1	YDN89157.1	98.174	219	4	0	1	219	21	239	4.57e-155	422
+YDN61824.1	YDN89156.1	98.174	219	4	0	1	219	19	237	5.21e-155	421
+YDN61824.1	YDN89097.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+YDN61824.1	YDN89158.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+# BLASTP 2.17.0+
+# Query: YDN61823.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Nyctalus leisleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN61823.1	YDN61822.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61823.1	YDN61823.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61823.1	YDN61824.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61823.1	YDN61825.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61823.1	YDN61826.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61823.1	YDN89096.1	98.174	219	4	0	1	219	10	228	1.54e-155	422
+YDN61823.1	YDN89157.1	98.174	219	4	0	1	219	21	239	4.57e-155	422
+YDN61823.1	YDN89156.1	98.174	219	4	0	1	219	19	237	5.21e-155	421
+YDN61823.1	YDN89097.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+YDN61823.1	YDN89158.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+# BLASTP 2.17.0+
+# Query: YDN61822.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Nyctalus leisleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN61822.1	YDN61822.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61822.1	YDN61823.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61822.1	YDN61824.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61822.1	YDN61825.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61822.1	YDN61826.1	100.000	219	0	0	1	219	1	219	1.37e-157	427
+YDN61822.1	YDN89096.1	98.174	219	4	0	1	219	10	228	1.54e-155	422
+YDN61822.1	YDN89157.1	98.174	219	4	0	1	219	21	239	4.57e-155	422
+YDN61822.1	YDN89156.1	98.174	219	4	0	1	219	19	237	5.21e-155	421
+YDN61822.1	YDN89097.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+YDN61822.1	YDN89158.1	98.174	219	4	0	1	219	18	236	8.47e-155	421
+# BLASTP 2.17.0+
+# Query: YCQ37814.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YCQ37814.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YCQ37814.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YCQ37814.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YCQ37814.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: YP_161184.1 cytochrome c oxidase subunit I (mitochondrion) [Sminthopsis douglasi]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YP_161184.1	YP_161184.1	100.000	513	0	0	1	513	1	513	0.0	1023
+YP_161184.1	YDO68207.1	94.129	511	30	0	1	511	1	511	0.0	931
+YP_161184.1	XHB32457.1	94.325	511	29	0	1	511	1	511	0.0	929
+YP_161184.1	YDN31017.1	90.058	513	51	0	1	513	1	513	0.0	893
+YP_161184.1	YDN31030.1	90.058	513	51	0	1	513	1	513	0.0	893
+YP_161184.1	YCQ37814.1	90.058	513	51	0	1	513	1	513	0.0	893
+YP_161184.1	YDN93780.1	90.058	513	51	0	1	513	1	513	0.0	893
+YP_161184.1	YDN93963.1	90.058	513	51	0	1	513	1	513	0.0	893
+YP_161184.1	YDN94102.1	90.058	513	51	0	1	513	1	513	0.0	893
+YP_161184.1	YDP00925.1	90.058	513	51	0	1	513	1	513	0.0	893
+# BLASTP 2.17.0+
+# Query: YDN31030.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN31030.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31030.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YDN31030.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YDN31030.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: YDN31017.1 cytochrome c oxidase subunit I (mitochondrion) [Homo sapiens]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN31017.1	YDN31017.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDN31030.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YCQ37814.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDN93780.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDN93963.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDN94102.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDP00925.1	100.000	513	0	0	1	513	1	513	0.0	1026
+YDN31017.1	YDO68207.1	92.955	511	36	0	1	511	1	511	0.0	917
+YDN31017.1	YP_161184.1	90.058	513	51	0	1	513	1	513	0.0	898
+YDN31017.1	XHB32457.1	90.998	511	46	0	1	511	1	511	0.0	898
+# BLASTP 2.17.0+
+# Query: YDN29383.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Hipposideros bicolor]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YDN29383.1	YDN29383.1	100.000	205	0	0	1	205	1	205	5.41e-147	399
+YDN29383.1	YDN61822.1	97.561	205	5	0	1	205	8	212	3.65e-144	392
+YDN29383.1	YDN61823.1	97.561	205	5	0	1	205	8	212	3.65e-144	392
+YDN29383.1	YDN61824.1	97.561	205	5	0	1	205	8	212	3.65e-144	392
+YDN29383.1	YDN61825.1	97.561	205	5	0	1	205	8	212	3.65e-144	392
+YDN29383.1	YDN61826.1	97.561	205	5	0	1	205	8	212	3.65e-144	392
+YDN29383.1	WIO21488.1	97.561	205	5	0	1	205	2	206	5.68e-144	392
+YDN29383.1	WIO21489.1	97.561	205	5	0	1	205	2	206	5.68e-144	392
+YDN29383.1	WIO21490.1	97.561	205	5	0	1	205	2	206	5.68e-144	392
+YDN29383.1	WIO21491.1	97.561	205	5	0	1	205	2	206	5.68e-144	392
+# BLASTP 2.17.0+
+# Query: YAI74369.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsulus vanheurni]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74369.1	YAI74366.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74369.1	YAI74369.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74369.1	YAI74367.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74369.1	YAI74368.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74369.1	YAI74363.1	99.351	462	3	0	1	462	1	462	0.0	912
+YAI74369.1	YAI74364.1	99.134	462	4	0	1	462	1	462	0.0	911
+YAI74369.1	YAI74365.1	98.918	462	5	0	1	462	1	462	0.0	907
+YAI74369.1	YP_161184.1	98.413	441	7	0	22	462	1	441	0.0	865
+YAI74369.1	YDO68207.1	97.052	441	13	0	22	462	1	441	0.0	859
+YAI74369.1	XHB32457.1	97.279	441	12	0	22	462	1	441	0.0	857
+# BLASTP 2.17.0+
+# Query: YAI74368.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsulus vanheurni]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74368.1	YAI74367.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74368.1	YAI74368.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74368.1	YAI74366.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74368.1	YAI74369.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74368.1	YAI74363.1	99.567	462	2	0	1	462	1	462	0.0	912
+YAI74368.1	YAI74364.1	99.351	462	3	0	1	462	1	462	0.0	911
+YAI74368.1	YAI74365.1	99.134	462	4	0	1	462	1	462	0.0	908
+YAI74368.1	YP_161184.1	98.639	441	6	0	22	462	1	441	0.0	865
+YAI74368.1	YDO68207.1	97.279	441	12	0	22	462	1	441	0.0	859
+YAI74368.1	XHB32457.1	97.506	441	11	0	22	462	1	441	0.0	857
+# BLASTP 2.17.0+
+# Query: YAI74367.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsulus vanheurni]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74367.1	YAI74367.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74367.1	YAI74368.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74367.1	YAI74366.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74367.1	YAI74369.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74367.1	YAI74363.1	99.567	462	2	0	1	462	1	462	0.0	912
+YAI74367.1	YAI74364.1	99.351	462	3	0	1	462	1	462	0.0	911
+YAI74367.1	YAI74365.1	99.134	462	4	0	1	462	1	462	0.0	908
+YAI74367.1	YP_161184.1	98.639	441	6	0	22	462	1	441	0.0	865
+YAI74367.1	YDO68207.1	97.279	441	12	0	22	462	1	441	0.0	859
+YAI74367.1	XHB32457.1	97.506	441	11	0	22	462	1	441	0.0	857
+# BLASTP 2.17.0+
+# Query: YAI74366.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsulus vanheurni]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74366.1	YAI74366.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74366.1	YAI74369.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74366.1	YAI74367.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74366.1	YAI74368.1	99.784	462	1	0	1	462	1	462	0.0	915
+YAI74366.1	YAI74363.1	99.351	462	3	0	1	462	1	462	0.0	912
+YAI74366.1	YAI74364.1	99.134	462	4	0	1	462	1	462	0.0	911
+YAI74366.1	YAI74365.1	98.918	462	5	0	1	462	1	462	0.0	907
+YAI74366.1	YP_161184.1	98.413	441	7	0	22	462	1	441	0.0	865
+YAI74366.1	YDO68207.1	97.052	441	13	0	22	462	1	441	0.0	859
+YAI74366.1	XHB32457.1	97.279	441	12	0	22	462	1	441	0.0	857
+# BLASTP 2.17.0+
+# Query: YAI74365.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsis muelleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74365.1	YAI74365.1	100.000	462	0	0	1	462	1	462	0.0	916
+YAI74365.1	YAI74364.1	99.784	462	1	0	1	462	1	462	0.0	912
+YAI74365.1	YAI74363.1	99.567	462	2	0	1	462	1	462	0.0	910
+YAI74365.1	YAI74367.1	99.134	462	4	0	1	462	1	462	0.0	908
+YAI74365.1	YAI74368.1	99.134	462	4	0	1	462	1	462	0.0	908
+YAI74365.1	YAI74366.1	98.918	462	5	0	1	462	1	462	0.0	907
+YAI74365.1	YAI74369.1	98.918	462	5	0	1	462	1	462	0.0	907
+YAI74365.1	YP_161184.1	98.413	441	7	0	22	462	1	441	0.0	862
+YAI74365.1	YDO68207.1	97.279	441	12	0	22	462	1	441	0.0	859
+YAI74365.1	XHB32457.1	97.506	441	11	0	22	462	1	441	0.0	857
+# BLASTP 2.17.0+
+# Query: YAI74364.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsis muelleri]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74364.1	YAI74364.1	100.000	462	0	0	1	462	1	462	0.0	916
+YAI74364.1	YAI74363.1	99.784	462	1	0	1	462	1	462	0.0	913
+YAI74364.1	YAI74365.1	99.784	462	1	0	1	462	1	462	0.0	912
+YAI74364.1	YAI74366.1	99.134	462	4	0	1	462	1	462	0.0	911
+YAI74364.1	YAI74367.1	99.351	462	3	0	1	462	1	462	0.0	911
+YAI74364.1	YAI74368.1	99.351	462	3	0	1	462	1	462	0.0	911
+YAI74364.1	YAI74369.1	99.134	462	4	0	1	462	1	462	0.0	911
+YAI74364.1	YP_161184.1	98.413	441	7	0	22	462	1	441	0.0	863
+YAI74364.1	YDO68207.1	97.279	441	12	0	22	462	1	441	0.0	859
+YAI74364.1	XHB32457.1	97.506	441	11	0	22	462	1	441	0.0	857
+# BLASTP 2.17.0+
+# Query: YAI74363.1 cytochrome c oxidase subunit I, partial (mitochondrion) [Dorcopsis luctuosa phyllis]
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_27/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+YAI74363.1	YAI74363.1	100.000	462	0	0	1	462	1	462	0.0	915
+YAI74363.1	YAI74364.1	99.784	462	1	0	1	462	1	462	0.0	913
+YAI74363.1	YAI74366.1	99.351	462	3	0	1	462	1	462	0.0	912
+YAI74363.1	YAI74367.1	99.567	462	2	0	1	462	1	462	0.0	912
+YAI74363.1	YAI74368.1	99.567	462	2	0	1	462	1	462	0.0	912
+YAI74363.1	YAI74369.1	99.351	462	3	0	1	462	1	462	0.0	912
+YAI74363.1	YAI74365.1	99.567	462	2	0	1	462	1	462	0.0	910
+YAI74363.1	YP_161184.1	98.413	441	7	0	22	462	1	441	0.0	863
+YAI74363.1	YDO68207.1	97.279	441	12	0	22	462	1	441	0.0	860
+YAI74363.1	XHB32457.1	97.506	441	11	0	22	462	1	441	0.0	857
+# BLAST processed 50 queries

@@ -1,0 +1,51 @@
+# BLASTP 2.17.0+
+# Query: sp|Q91W27.1|TIP39_MOUSE RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+sp|Q91W27.1|TIP39_MOUSE	P0C172.1	100.000	100	0	0	1	100	1	100	1.68e-67	186
+sp|Q91W27.1|TIP39_MOUSE	Q91W27.1	100.000	100	0	0	1	100	1	100	1.68e-67	186
+# BLASTP 2.17.0+
+# Query: sp|P0C172.1|TIP39_RAT RecName: Full=Tuberoinfundibular peptide of 39 residues; Short=TIP39; AltName: Full=Parathyroid hormone 2; Flags: Precursor
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+sp|P0C172.1|TIP39_RAT	P0C172.1	100.000	100	0	0	1	100	1	100	1.68e-67	186
+sp|P0C172.1|TIP39_RAT	Q91W27.1	100.000	100	0	0	1	100	1	100	1.68e-67	186
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|I Chain I, ANTIBODY (ANTI BETA SUBUNIT) (HEAVY CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+pdb|1QFW|I	1QFW_I	100.000	122	0	0	1	122	1	122	1.65e-93	253
+pdb|1QFW|I	1QFW_H	47.541	122	59	1	1	122	1	117	2.20e-34	104
+pdb|1QFW|I	1QFW_M	31.132	106	58	7	15	120	16	106	1.34e-06	32.3
+pdb|1QFW|I	1QFW_L	29.365	126	67	8	2	120	2	112	1.53e-06	32.3
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|M Chain M, ANTIBODY (ANTI BETA SUBUNIT) (LIGHT CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+pdb|1QFW|M	1QFW_M	100.000	108	0	0	1	108	1	108	5.77e-83	226
+pdb|1QFW|M	1QFW_L	64.035	114	35	2	1	108	1	114	3.33e-52	148
+pdb|1QFW|M	1QFW_I	31.132	106	58	7	16	106	15	120	1.19e-06	32.3
+pdb|1QFW|M	1QFW_H	29.060	117	68	7	2	106	2	115	5.47e-06	30.4
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|H Chain H, ANTIBODY (ANTI ALPHA SUBUNIT) (HEAVY CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+pdb|1QFW|H	1QFW_H	100.000	117	0	0	1	117	1	117	2.68e-89	243
+pdb|1QFW|H	1QFW_I	47.967	123	57	2	1	117	1	122	8.33e-38	112
+pdb|1QFW|H	1QFW_M	30.769	117	66	7	2	115	2	106	6.62e-09	38.5
+pdb|1QFW|H	1QFW_L	25.000	120	75	5	2	115	2	112	2.97e-07	33.9
+# BLASTP 2.17.0+
+# Query: pdb|1QFW|L Chain L, ANTIBODY (ANTI ALPHA SUBUNIT) (LIGHT CHAIN)
+# Database: /localdisk/home/s2837201/public_html/ICA/data/job_29/blastdb
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+pdb|1QFW|L	1QFW_L	100.000	114	0	0	1	114	1	114	3.73e-87	237
+pdb|1QFW|L	1QFW_M	64.035	114	35	2	1	114	1	108	3.52e-52	148
+pdb|1QFW|L	1QFW_I	29.365	126	67	8	2	112	2	120	1.43e-06	32.3
+pdb|1QFW|L	1QFW_H	35.556	45	26	2	2	46	2	43	1.05e-05	29.6
+# BLAST processed 6 queries

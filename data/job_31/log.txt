@@ -1,0 +1,6 @@
+Fetched 50 sequences.
+Wrote 50 sequences to sequences.json.
+Inserted 50 sequences into DB.
+Created /localdisk/home/s2837201/public_html/ICA/data/job_31/conservation.1.png
+Structure predicted for KAN1727817.1
+JAHbio job 31 complete.

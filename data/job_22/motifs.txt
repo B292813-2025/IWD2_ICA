@@ -1,0 +1,890 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp711eab4b.fasta
+#    -outfile /tmp/tmpspq0mowa.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpspq0mowa.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT31001.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp2j_11y5p.fasta
+#    -outfile /tmp/tmp3mizxojz.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp3mizxojz.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT31000.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpmmn4js8x.fasta
+#    -outfile /tmp/tmph39at_44.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmph39at_44.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30999.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp0r9hzu5l.fasta
+#    -outfile /tmp/tmpj328glzg.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpj328glzg.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30998.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp_xesrd2w.fasta
+#    -outfile /tmp/tmpeo33_cnt.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpeo33_cnt.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30997.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpun8yzhm5.fasta
+#    -outfile /tmp/tmp457vov2d.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp457vov2d.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30996.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp3k6wn37j.fasta
+#    -outfile /tmp/tmpal5isacf.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpal5isacf.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30995.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpyo3g708t.fasta
+#    -outfile /tmp/tmpar8kgekw.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpar8kgekw.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30994.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmplwboymvx.fasta
+#    -outfile /tmp/tmp93s6xk92.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp93s6xk92.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30993.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp5_w8tjg8.fasta
+#    -outfile /tmp/tmpry_bo5lt.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpry_bo5lt.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30992.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpw0t92qqo.fasta
+#    -outfile /tmp/tmpsi83s6ka.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpsi83s6ka.txt
+########################################
+
+#=======================================
+#
+# Sequence: AUT30991.1     from: 1   to: 219
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp87nu8e17.fasta
+#    -outfile /tmp/tmpxywb20x3.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpxywb20x3.txt
+########################################
+
+#=======================================
+#
+# Sequence: ABC84260.1     from: 1   to: 55
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpehj_17gb.fasta
+#    -outfile /tmp/tmpaldh1l66.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpaldh1l66.txt
+########################################
+
+#=======================================
+#
+# Sequence: ABC84256.1     from: 1   to: 64
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpm51t48gs.fasta
+#    -outfile /tmp/tmptbyeh03c.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmptbyeh03c.txt
+########################################
+
+#=======================================
+#
+# Sequence: CCM12456.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGMISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpo4aunmd3.fasta
+#    -outfile /tmp/tmppw_xnf13.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmppw_xnf13.txt
+########################################
+
+#=======================================
+#
+# Sequence: CCK73164.1     from: 1   to: 513
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpns4oubip.fasta
+#    -outfile /tmp/tmp26m2xgq8.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp26m2xgq8.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66110.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+VVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpucrf6648.fasta
+#    -outfile /tmp/tmpvjwink2r.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpvjwink2r.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66097.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+VVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp0ex2ur__.fasta
+#    -outfile /tmp/tmpjrj3c2el.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpjrj3c2el.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66084.1     from: 1   to: 514
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHVVTYYSDKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpb7nocw5_.fasta
+#    -outfile /tmp/tmp5b7o55l9.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp5b7o55l9.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66071.1     from: 1   to: 516
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp94enx8i0.fasta
+#    -outfile /tmp/tmpsa8nx12d.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpsa8nx12d.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66058.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp3tu3tij9.fasta
+#    -outfile /tmp/tmpi35vahp_.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpi35vahp_.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66045.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+VVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp_nrsrbou.fasta
+#    -outfile /tmp/tmp51dujxwr.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp51dujxwr.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66032.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpp2qt125t.fasta
+#    -outfile /tmp/tmp415g1zit.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp415g1zit.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66019.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+VVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp50_0ou_2.fasta
+#    -outfile /tmp/tmpf_dn0b_w.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpf_dn0b_w.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF66006.1     from: 1   to: 514
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+VVTYYSGKKEPFGY
+     |  |
+   262  265
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpjtgwz39f.fasta
+#    -outfile /tmp/tmpjh1nod2j.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpjh1nod2j.txt
+########################################
+
+#=======================================
+#
+# Sequence: CDF65993.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+VVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:19:05
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp43mlekzw.fasta
+#    -outfile /tmp/tmp9finf4vk.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp9finf4vk.txt
+########################################
+
+#=======================================
+#
+# Sequence: CCW28873.1     from: 1   to: 514
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 262 of sequence
+End = position 265 of sequence
+
+Motif = AMIDATION
+
+IVTYYSGKKEPFGY
+     |  |
+   262  265
+
+Length = 56
+Start = position 236 of sequence
+End = position 291 of sequence
+
+Motif = COX1_CUB
+
+YQHLFWFFGHPEVYILILPGFGIISHIVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVG
+     |                                                      |
+   236                                                      291
+
+
+#---------------------------------------
+#---------------------------------------

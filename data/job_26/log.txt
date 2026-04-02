@@ -1,0 +1,45 @@
+BIOPYTHON_FAILED
+Biopython failed, trying edirect fallback...
+ WARNING:  FAILURE ( Thu Apr  2 18:37:50 BST 2026 )
+nquire -url https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ esearch.fcgi -retmax 0 -usehistory y -db protein -term "cox1[All Fields] AND Mammalia [organism]" -api_key bc81dc27024bce567d64cb201a28e9ad8508 -tool edirect -edirect 24.7 -edirect_os Linux
+<ERROR>Search Backend failed:</ERROR>
+SECOND ATTEMPT
+ WARNING:  FAILURE ( Thu Apr  2 18:37:52 BST 2026 )
+nquire -url https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ esearch.fcgi -retmax 0 -usehistory y -db protein -term "cox1[All Fields] AND Mammalia [organism]" -api_key bc81dc27024bce567d64cb201a28e9ad8508 -tool edirect -edirect 24.7 -edirect_os Linux
+<ERROR>Search Backend failed:</ERROR>
+LAST ATTEMPT
+ ERROR:  FAILURE ( Thu Apr  2 18:37:54 BST 2026 )
+nquire -url https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ esearch.fcgi -retmax 0 -usehistory y -db protein -term "cox1[All Fields] AND Mammalia [organism]" -api_key bc81dc27024bce567d64cb201a28e9ad8508 -tool edirect -edirect 24.7 -edirect_os Linux
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult>
+<eSearchResult>
+  <ERROR>Search Backend failed:</ERROR>
+</eSearchResult>
+QUERY FAILURE
+Wrote 0 sequences to sequences.json.
+Inserted 0 sequences into DB.
+
+FATAL: Sequence file contains no data
+Error: Failed to open filename '/localdisk/home/s2837201/public_html/ICA/data/job_26/aligned.fasta'
+Error: Unable to read sequence '/localdisk/home/s2837201/public_html/ICA/data/job_26/aligned.fasta'
+Died: plotcon terminated: Bad value for '-sequences' with -auto defined
+Motif scan complete.
+Wrote 0 motif hits to motifs.json.
+No motif hits to insert.
+
+
+Building a new DB, current time: 04/02/2026 18:37:59
+New DB name:   /localdisk/home/s2837201/public_html/ICA/data/job_26/blastdb
+New DB title:  /localdisk/home/s2837201/public_html/ICA/data/job_26/sequences.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+BLAST options error: File /localdisk/home/s2837201/public_html/ICA/data/job_26/sequences.fasta is empty
+BLAST Database error: No alias or index file found for protein database [/localdisk/home/s2837201/public_html/ICA/data/job_26/blastdb] in search path [/localdisk/home/s2837201/public_html/ICA::]. Please verify the spelling of the BLAST database and its molecule type.
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+  File "/usr/lib/python3/dist-packages/Bio/SeqIO/Interfaces.py", line 85, in __next__
+    return next(self.records)
+           ^^^^^^^^^^^^^^^^^^
+StopIteration
+JAHbio job 26 complete.

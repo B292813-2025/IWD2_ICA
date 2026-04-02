@@ -1,0 +1,140 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:37:19
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmp_lvugw4l.fasta
+#    -outfile /tmp/tmpp6xvhrrg.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpp6xvhrrg.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAI6077391.1     from: 1   to: 433
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:37:19
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpgmc8svii.fasta
+#    -outfile /tmp/tmpnjkp_1by.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpnjkp_1by.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAI6077184.1     from: 1   to: 548
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 497 of sequence
+End = position 500 of sequence
+
+Motif = AMIDATION
+
+YSGQIGGKKCQKRP
+     |  |
+   497  500
+
+Length = 4
+Start = position 310 of sequence
+End = position 313 of sequence
+
+Motif = AMIDATION
+
+FMNKYHGRKLSVQG
+     |  |
+   310  313
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:37:19
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpq8pt6ug5.fasta
+#    -outfile /tmp/tmp_x1578hn.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmp_x1578hn.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAI6072103.1     from: 1   to: 285
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  2 Apr 2026 18:37:19
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdkwixgwn.fasta
+#    -outfile /tmp/tmpashg038k.txt
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpashg038k.txt
+########################################
+
+#=======================================
+#
+# Sequence: CAA65449.1     from: 1   to: 729
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 60
+Start = position 316 of sequence
+End = position 375 of sequence
+
+Motif = BROMODOMAIN_1
+
+KHAAYAWPFYKPVDASALGLHDYHEIIKHPMDLSTIKRKMENRDYHDAQEFAADVRLMFSNCYKYNPPDH
+     |                                                          |
+   316                                                          375
+
+Length = 60
+Start = position 49 of sequence
+End = position 108 of sequence
+
+Motif = BROMODOMAIN_1
+
+WKHQFAWPFRQPVDAVKLGLPDYHKIIKQPMDMGTIKRRLENNYYWGAAECMQDFNTMFTNCYIYNKPTD
+     |                                                          |
+    49                                                          108
+
+
+#---------------------------------------
+#---------------------------------------
